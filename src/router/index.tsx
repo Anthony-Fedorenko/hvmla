@@ -1,0 +1,96 @@
+import { createBrowserRouter } from "react-router-dom";
+import Layout from "../layout/Layout";
+import Home from "../pages/Home";
+
+// About
+import History from "../pages/about/History";
+import Clergy from "../pages/about/Clergy";
+
+// Ministries
+import StXenia from "../pages/ministries/StXenia";
+import Choir from "../pages/ministries/Choir";
+import CatechismSchool from "../pages/ministries/CatechismSchool";
+import Sisterhood from "../pages/ministries/Sisterhood";
+
+// Services
+import ServiceSchedule from "../pages/services/ServiceSchedule";
+import LiveStreams from "../pages/services/LiveStreams";
+import StreamArchive from "../pages/services/StreamArchive";
+import AboutServices from "../pages/services/AboutServices";
+
+// Sunday School
+import SSInfo from "../pages/sundayschool/SSInfo";
+import SSSchedule from "../pages/sundayschool/SSSchedule";
+import SSProgram from "../pages/sundayschool/SSProgram";
+import SSContacts from "../pages/sundayschool/SSContacts";
+
+// Education
+import Books from "../pages/education/Books";
+import LiturgicalTexts from "../pages/education/LiturgicalTexts";
+import PrayerBooks from "../pages/education/PrayerBooks";
+import Bulletin from "../pages/education/Bulletin";
+
+// News
+import Announcements from "../pages/news/Announcements";
+import NewsPage from "../pages/news/NewsPage";
+
+// Support
+import Donations from "../pages/support/Donations";
+import Volunteering from "../pages/support/Volunteering";
+
+// Cafe / Museum
+import Cafe from "../pages/cafe/Cafe";
+import Museum from "../pages/cafe/Museum";
+
+// Contact
+import ContactInfo from "../pages/contact/ContactInfo";
+import AddressMap from "../pages/contact/AddressMap";
+import SocialMedia from "../pages/contact/SocialMedia";
+import ContactForm from "../pages/contact/ContactForm";
+
+export const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Layout />,
+    children: [
+      { index: true, element: <Home /> },
+
+      { path: "about/history", element: <History /> },
+      { path: "about/clergy", element: <Clergy /> },
+
+      { path: "ministries/st-xenia", element: <StXenia /> },
+      { path: "ministries/choir", element: <Choir /> },
+      { path: "ministries/catechism", element: <CatechismSchool /> },
+      { path: "ministries/sisterhood", element: <Sisterhood /> },
+
+      { path: "services/schedule", element: <ServiceSchedule /> },
+      { path: "services/live", element: <LiveStreams /> },
+      { path: "services/archive", element: <StreamArchive /> },
+      { path: "services/about", element: <AboutServices /> },
+
+      { path: "sunday-school/info", element: <SSInfo /> },
+      { path: "sunday-school/schedule", element: <SSSchedule /> },
+      { path: "sunday-school/program", element: <SSProgram /> },
+      { path: "sunday-school/contacts", element: <SSContacts /> },
+
+      { path: "education/books", element: <Books /> },
+      { path: "education/liturgical-texts", element: <LiturgicalTexts /> },
+      { path: "education/prayer-books", element: <PrayerBooks /> },
+      { path: "education/bulletin", element: <Bulletin /> },
+
+      { path: "news/announcements", element: <Announcements /> },
+      { path: "news", element: <NewsPage /> },
+
+      { path: "support/donations", element: <Donations /> },
+      { path: "support/volunteering", element: <Volunteering /> },
+
+      { path: "cafe", element: <Cafe /> },
+      { path: "museum", element: <Museum /> },
+
+      { path: "contact/info", element: <ContactInfo /> },
+      { path: "contact/map", element: <AddressMap /> },
+      { path: "contact/social", element: <SocialMedia /> },
+      { path: "contact/form", element: <ContactForm /> },
+    ],
+  },
+]);

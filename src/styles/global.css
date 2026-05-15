@@ -1,0 +1,228 @@
+/* ===================================
+   GLOBAL STYLES — Holy Virgin Mary Cathedral
+   =================================== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Colors */
+  --color-white: #ffffff;
+  --color-bg: #f8f8f6;
+  --color-section: #f2f2ef;
+  --color-border: #e0e0da;
+  --color-text: #1a1a1a;
+  --color-text-secondary: #555550;
+  --color-text-muted: #888884;
+  --color-accent: #7a5c3f;
+  --color-accent-hover: #5e4530;
+  --color-accent-light: #f5efe8;
+
+  /* Typography */
+  --font-serif: "Georgia", "Times New Roman", serif;
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  /* Spacing */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+  --space-2xl: 4rem;
+  --space-3xl: 6rem;
+
+  /* Layout */
+  --max-width: 1120px;
+  --navbar-height: 70px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.12);
+
+  /* Transitions */
+  --transition: 0.2s ease;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-white);
+  color: var(--color-text);
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-serif);
+  line-height: 1.25;
+  font-weight: 400;
+  color: var(--color-text);
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+}
+h2 {
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
+}
+h3 {
+  font-size: clamp(1.2rem, 2vw, 1.5rem);
+}
+h4 {
+  font-size: 1.15rem;
+}
+
+p {
+  margin-bottom: var(--space-sm);
+  color: var(--color-text-secondary);
+  max-width: 72ch;
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+  transition: color var(--transition);
+}
+
+a:hover {
+  color: var(--color-accent-hover);
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  cursor: pointer;
+  font-family: var(--font-sans);
+}
+
+/* Utility classes */
+.container {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--space-md);
+}
+
+.section {
+  padding: var(--space-3xl) 0;
+}
+
+.section--gray {
+  background-color: var(--color-section);
+}
+
+.section__header {
+  margin-bottom: var(--space-xl);
+}
+
+.section__title {
+  margin-bottom: var(--space-xs);
+}
+
+.section__subtitle {
+  color: var(--color-text-muted);
+  font-size: 1.05rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.75rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  border-radius: 3px;
+  border: none;
+  transition:
+    background-color var(--transition),
+    color var(--transition),
+    transform var(--transition);
+  text-align: center;
+}
+
+.btn--primary {
+  background-color: var(--color-accent);
+  color: var(--color-white);
+}
+
+.btn--primary:hover {
+  background-color: var(--color-accent-hover);
+  color: var(--color-white);
+  transform: translateY(-1px);
+}
+
+.btn--outline {
+  background-color: transparent;
+  color: var(--color-accent);
+  border: 1.5px solid var(--color-accent);
+}
+
+.btn--outline:hover {
+  background-color: var(--color-accent);
+  color: var(--color-white);
+}
+
+.page-hero {
+  background-color: var(--color-section);
+  border-bottom: 1px solid var(--color-border);
+  padding: var(--space-2xl) 0 var(--space-xl);
+  margin-bottom: var(--space-2xl);
+}
+
+.page-hero h1 {
+  margin-bottom: var(--space-xs);
+}
+
+.page-hero p {
+  color: var(--color-text-muted);
+  font-size: 1.1rem;
+  margin-bottom: 0;
+}
+
+.card {
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  padding: var(--space-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-lg);
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-lg);
+}
+
+@media (max-width: 768px) {
+  .grid-2,
+  .grid-3 {
+    grid-template-columns: 1fr;
+  }
+}

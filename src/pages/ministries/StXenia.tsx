@@ -1,0 +1,90 @@
+import { useEffect } from "react";
+import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+
+const ACTIVITIES_KEYS = [
+  "ministries.xeniaA1",
+  "ministries.xeniaA2",
+  "ministries.xeniaA3",
+  "ministries.xeniaA4",
+  "ministries.xeniaA5",
+];
+
+export default function StXenia() {
+  const { t } = useTranslation();
+
+  useEffect(() => {
+    document.title = `${t("ministries.xeniaTitlePage")} | Holy Virgin Mary Cathedral`;
+  }, [t]);
+
+  return (
+    <>
+      <div className="page-hero">
+        <div className="container">
+          <h1>{t("ministries.xeniaTitlePage")}</h1>
+        </div>
+      </div>
+
+      <div className="section">
+        <div className="container">
+          <div className="grid-2" style={{ alignItems: "start" }}>
+            <div>
+              <p style={{ fontSize: "1.05rem" }}>{t("ministries.xeniaDesc")}</p>
+            </div>
+            <div className="card">
+              <h3 style={{ marginBottom: "var(--space-md)" }}>
+                {t("ministries.xeniaActivities")}
+              </h3>
+              <ul
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  gap: "0.75rem",
+                }}
+              >
+                {ACTIVITIES_KEYS.map((key) => (
+                  <li
+                    key={key}
+                    style={{
+                      display: "flex",
+                      alignItems: "flex-start",
+                      gap: "0.75rem",
+                      fontSize: "0.95rem",
+                      color: "var(--color-text-secondary)",
+                    }}
+                  >
+                    <span
+                      style={{ color: "var(--color-accent)", flexShrink: 0 }}
+                    >
+                      ✦
+                    </span>
+                    {t(key)}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="section section--gray">
+        <div className="container">
+          <h2
+            className="section__title"
+            style={{ marginBottom: "var(--space-md)" }}
+          >
+            {t("ministries.donateTitle")}
+          </h2>
+          <p>{t("ministries.donateText")}</p>
+          <Link
+            to="/support/donations"
+            className="btn btn--primary"
+            style={{ marginTop: "var(--space-md)" }}
+          >
+            {t("ministries.donateButton")}
+          </Link>
+        </div>
+      </div>
+    </>
+  );
+}
