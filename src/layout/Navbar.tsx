@@ -126,7 +126,7 @@ export default function Navbar() {
       aria-label="Main navigation"
     >
       <div className={`container ${styles.navbar__inner}`}>
-        {/* Desktop menu */
+        {/* Desktop menu */}
         <ul className={styles.navbar__menu}>
           <li className={styles.navbar__item}>
             <NavLink
