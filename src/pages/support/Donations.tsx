@@ -1,6 +1,9 @@
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
+const PAYPAL_DONATE_URL =
+  "https://www.paypal.com/donate?token=4OOxhNtTwTSh1FdVoJrs1gjbuFWWCDVbRLpQ1s-XDybQ6-Wi170bzg8_eqzMs7wXdOR4uIDnnwMnRu8m";
+
 const WAYS_KEYS = [
   "support.w1",
   "support.w2",
@@ -91,7 +94,7 @@ export default function Donations() {
                   {t("support.donationsP2")}
                 </p>
                 <a
-                  href="https://www.paypal.com"
+                  href={PAYPAL_DONATE_URL}
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{

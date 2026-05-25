@@ -35,12 +35,16 @@
     "contactInfo": "Contact Info",
     "addressMap": "Address & Map",
     "socialMedia": "Social Media",
-    "contactForm": "Contact Form"
+    "contactForm": "Contact Form",
+    "bylaws": "Bylaws",
+    "donate": "Donate"
   },
   "home": {
     "heroTitle": "Holy Virgin Mary\nRussian Orthodox Cathedral",
     "heroSubtitle": "Los Angeles, California",
     "heroButton": "Learn About Us",
+    "heroOCA": "Orthodox Church in America",
+    "heroDonate": "Donate",
     "upcomingTitle": "Upcoming Services",
     "announcementsTitle": "Announcements",
     "donationTitle": "Support Our Parish",
@@ -268,10 +272,17 @@
     "successMsg": "Thank you! Your message has been sent. We will respond within 1–2 business days.",
     "errorMsg": "Something went wrong. Please try again or call us directly."
   },
+  "bylaws": {
+    "bylawsTitle": "Parish Bylaws",
+    "bylawsSubtitle": "Governing Documents",
+    "bylawsWip": "Parish bylaws and governing documents will be published here soon. Please contact the parish office for more information."
+  },
   "footer": {
     "tagline": "A community of faith in the heart of Los Angeles",
     "quickLinks": "Quick Links",
     "contactUs": "Contact Us",
+    "diocese": "Diocese of the West",
+    "affiliates": "Our Affiliates",
     "copyright": "© {{year}} Holy Virgin Mary Russian Orthodox Cathedral. All rights reserved.",
     "madeWith": "Built with love for our parish community."
   },

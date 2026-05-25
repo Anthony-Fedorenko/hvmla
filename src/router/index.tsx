@@ -5,6 +5,7 @@ import Home from "../pages/Home";
 // About
 import History from "../pages/about/History";
 import Clergy from "../pages/about/Clergy";
+import Bylaws from "../pages/about/Bylaws";
 
 // Ministries
 import StXenia from "../pages/ministries/StXenia";
@@ -16,18 +17,12 @@ import Sisterhood from "../pages/ministries/Sisterhood";
 import ServiceSchedule from "../pages/services/ServiceSchedule";
 import LiveStreams from "../pages/services/LiveStreams";
 import StreamArchive from "../pages/services/StreamArchive";
-import AboutServices from "../pages/services/AboutServices";
 
-// Sunday School
-import SSInfo from "../pages/sundayschool/SSInfo";
-import SSSchedule from "../pages/sundayschool/SSSchedule";
-import SSProgram from "../pages/sundayschool/SSProgram";
-import SSContacts from "../pages/sundayschool/SSContacts";
+// Sunday School (unified page)
+import SundaySchool from "../pages/sundayschool/SSInfo";
 
 // Education
 import Books from "../pages/education/Books";
-import LiturgicalTexts from "../pages/education/LiturgicalTexts";
-import PrayerBooks from "../pages/education/PrayerBooks";
 import Bulletin from "../pages/education/Bulletin";
 
 // News
@@ -57,6 +52,7 @@ export const router = createBrowserRouter([
 
       { path: "about/history", element: <History /> },
       { path: "about/clergy", element: <Clergy /> },
+      { path: "about/bylaws", element: <Bylaws /> },
 
       { path: "ministries/st-xenia", element: <StXenia /> },
       { path: "ministries/choir", element: <Choir /> },
@@ -66,16 +62,10 @@ export const router = createBrowserRouter([
       { path: "services/schedule", element: <ServiceSchedule /> },
       { path: "services/live", element: <LiveStreams /> },
       { path: "services/archive", element: <StreamArchive /> },
-      { path: "services/about", element: <AboutServices /> },
 
-      { path: "sunday-school/info", element: <SSInfo /> },
-      { path: "sunday-school/schedule", element: <SSSchedule /> },
-      { path: "sunday-school/program", element: <SSProgram /> },
-      { path: "sunday-school/contacts", element: <SSContacts /> },
+      { path: "sunday-school", element: <SundaySchool /> },
 
       { path: "education/books", element: <Books /> },
-      { path: "education/liturgical-texts", element: <LiturgicalTexts /> },
-      { path: "education/prayer-books", element: <PrayerBooks /> },
       { path: "education/bulletin", element: <Bulletin /> },
 
       { path: "news/announcements", element: <Announcements /> },

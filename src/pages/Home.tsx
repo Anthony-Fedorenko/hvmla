@@ -17,6 +17,19 @@ export default function Home() {
   return (
     <>
       <Hero />
+      <div style={{ lineHeight: 0 }}>
+        <img
+          src="/hvmla_main_photo-compressed.jpg"
+          alt="Holy Virgin Mary Russian Orthodox Cathedral"
+          style={{
+            width: "100%",
+            aspectRatio: "3/2",
+            objectFit: "cover",
+            objectPosition: "center top",
+            display: "block",
+          }}
+        />
+      </div>
       <UpcomingServices />
       <AnnouncementsPreview />
       <DonationCTA />

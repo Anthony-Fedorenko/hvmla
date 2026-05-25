@@ -8,6 +8,8 @@ export interface ServiceDay {
   id: string;
   /** Short date label, e.g. "May 16" */
   date: string;
+  /** ISO date string for filtering, e.g. "2026-05-16" */
+  dateISO: string;
   dayOfWeekEn: string;
   dayOfWeekRu: string;
   icon: string;
@@ -19,6 +21,7 @@ export const upcomingServices: ServiceDay[] = [
   {
     id: "may16",
     date: "May 16",
+    dateISO: "2026-05-16",
     dayOfWeekEn: "Saturday",
     dayOfWeekRu: "Суббота",
     icon: "✦",
@@ -33,6 +36,7 @@ export const upcomingServices: ServiceDay[] = [
   {
     id: "may17",
     date: "May 17",
+    dateISO: "2026-05-17",
     dayOfWeekEn: "Sunday",
     dayOfWeekRu: "Воскресенье",
     icon: "☩",
@@ -48,6 +52,7 @@ export const upcomingServices: ServiceDay[] = [
   {
     id: "may19",
     date: "May 19",
+    dateISO: "2026-05-19",
     dayOfWeekEn: "Tuesday",
     dayOfWeekRu: "Вторник",
     icon: "✦",
@@ -56,6 +61,7 @@ export const upcomingServices: ServiceDay[] = [
   {
     id: "may20",
     date: "May 20",
+    dateISO: "2026-05-20",
     dayOfWeekEn: "Wednesday",
     dayOfWeekRu: "Среда",
     icon: "☩",
@@ -76,6 +82,7 @@ export const upcomingServices: ServiceDay[] = [
   {
     id: "may21",
     date: "May 21",
+    dateISO: "2026-05-21",
     dayOfWeekEn: "Thursday",
     dayOfWeekRu: "Четверг",
     icon: "☩",
@@ -91,6 +98,7 @@ export const upcomingServices: ServiceDay[] = [
   {
     id: "may23",
     date: "May 23",
+    dateISO: "2026-05-23",
     dayOfWeekEn: "Saturday",
     dayOfWeekRu: "Суббота",
     icon: "✦",
@@ -105,6 +113,7 @@ export const upcomingServices: ServiceDay[] = [
   {
     id: "may24",
     date: "May 24",
+    dateISO: "2026-05-24",
     dayOfWeekEn: "Sunday",
     dayOfWeekRu: "Воскресенье",
     icon: "☩",
@@ -120,6 +129,7 @@ export const upcomingServices: ServiceDay[] = [
   {
     id: "may26",
     date: "May 26",
+    dateISO: "2026-05-26",
     dayOfWeekEn: "Tuesday",
     dayOfWeekRu: "Вторник",
     icon: "✦",
@@ -136,6 +146,7 @@ export const upcomingServices: ServiceDay[] = [
   {
     id: "may30",
     date: "May 30",
+    dateISO: "2026-05-30",
     dayOfWeekEn: "Saturday",
     dayOfWeekRu: "Суббота",
     icon: "✦",
@@ -151,6 +162,7 @@ export const upcomingServices: ServiceDay[] = [
   {
     id: "may31",
     date: "May 31",
+    dateISO: "2026-05-31",
     dayOfWeekEn: "Sunday",
     dayOfWeekRu: "Воскресенье",
     icon: "☩",

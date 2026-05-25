@@ -13,7 +13,10 @@ export default function Footer() {
           {/* Brand & contact */}
           <div>
             <p className={styles["footer__brand-name"]}>
-              Holy Virgin Mary Cathedral
+              Holy Virgin Mary Russian Orthodox Cathedral
+            </p>
+            <p className={styles["footer__brand-diocese"]}>
+              {t("footer.diocese")}
             </p>
             <p className={styles.footer__tagline}>{t("footer.tagline")}</p>
             <p className={styles["footer__contact-item"]}>
@@ -44,7 +47,7 @@ export default function Footer() {
               <Link className={styles.footer__link} to="/services/live">
                 {t("nav.liveStreams")}
               </Link>
-              <Link className={styles.footer__link} to="/sunday-school/info">
+              <Link className={styles.footer__link} to="/sunday-school">
                 {t("nav.sundaySchool")}
               </Link>
               <Link className={styles.footer__link} to="/news">
@@ -56,7 +59,7 @@ export default function Footer() {
             </nav>
           </div>
 
-          {/* Contact */}
+          {/* Contact + Affiliates */}
           <div>
             <p className={styles["footer__col-title"]}>
               {t("footer.contactUs")}
@@ -74,6 +77,31 @@ export default function Footer() {
               <Link className={styles.footer__link} to="/contact/form">
                 {t("nav.contactForm")}
               </Link>
+            </nav>
+
+            <p
+              className={styles["footer__col-title"]}
+              style={{ marginTop: "1.5rem" }}
+            >
+              {t("footer.affiliates")}
+            </p>
+            <nav className={styles.footer__links}>
+              <a
+                className={styles.footer__link}
+                href="https://dowoca.org"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Diocese of the West (OCA)
+              </a>
+              <a
+                className={styles.footer__link}
+                href="https://www.oca.org"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Orthodox Church in America
+              </a>
             </nav>
           </div>
         </div>

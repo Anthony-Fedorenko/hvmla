@@ -10,6 +10,7 @@ const NAV_ITEMS = [
     children: [
       { key: "history", label: "nav.history", to: "/about/history" },
       { key: "clergy", label: "nav.clergy", to: "/about/clergy" },
+      { key: "bylaws", label: "nav.bylaws", to: "/about/bylaws" },
     ],
   },
   {
@@ -24,6 +25,11 @@ const NAV_ITEMS = [
         label: "nav.sisterhood",
         to: "/ministries/sisterhood",
       },
+      {
+        key: "sundaySchool",
+        label: "nav.sundaySchool",
+        to: "/sunday-school",
+      },
     ],
   },
   {
@@ -37,29 +43,6 @@ const NAV_ITEMS = [
         label: "nav.streamArchive",
         to: "/services/archive",
       },
-      {
-        key: "aboutServices",
-        label: "nav.aboutServices",
-        to: "/services/about",
-      },
-    ],
-  },
-  {
-    key: "sundaySchool",
-    label: "nav.sundaySchool",
-    children: [
-      { key: "ssInfo", label: "nav.info", to: "/sunday-school/info" },
-      {
-        key: "ssSchedule",
-        label: "nav.schedule",
-        to: "/sunday-school/schedule",
-      },
-      { key: "ssProgram", label: "nav.program", to: "/sunday-school/program" },
-      {
-        key: "ssContacts",
-        label: "nav.contacts",
-        to: "/sunday-school/contacts",
-      },
     ],
   },
   {
@@ -67,16 +50,6 @@ const NAV_ITEMS = [
     label: "nav.education",
     children: [
       { key: "books", label: "nav.books", to: "/education/books" },
-      {
-        key: "liturgical",
-        label: "nav.liturgicalTexts",
-        to: "/education/liturgical-texts",
-      },
-      {
-        key: "prayer",
-        label: "nav.prayerBooks",
-        to: "/education/prayer-books",
-      },
       { key: "bulletin", label: "nav.bulletin", to: "/education/bulletin" },
     ],
   },
@@ -153,18 +126,7 @@ export default function Navbar() {
       aria-label="Main navigation"
     >
       <div className={`container ${styles.navbar__inner}`}>
-        <Link
-          to="/"
-          className={styles.navbar__brand}
-          onClick={() => setMobileOpen(false)}
-        >
-          <span className={styles["navbar__brand-name"]}>
-            Holy Virgin Mary Cathedral
-          </span>
-          <span className={styles["navbar__brand-sub"]}>Los Angeles</span>
-        </Link>
-
-        {/* Desktop menu */}
+        {/* Desktop menu */
         <ul className={styles.navbar__menu}>
           <li className={styles.navbar__item}>
             <NavLink
