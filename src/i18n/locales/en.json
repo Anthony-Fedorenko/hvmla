@@ -275,7 +275,9 @@
   "bylaws": {
     "bylawsTitle": "Parish Bylaws",
     "bylawsSubtitle": "Governing Documents",
-    "bylawsWip": "Parish bylaws and governing documents will be published here soon. Please contact the parish office for more information."
+    "bylawsDesc": "The bylaws of Holy Virgin Mary Russian Orthodox Cathedral set forth the governance, membership, and organizational structure of the parish. They were adopted at the parish assembly on January 30, 2022, ratified effective February 6, 2022, and approved by His Eminence Archbishop Benjamin of San Francisco and the West.",
+    "bylawsAdopted": "Adopted January 30, 2022 · Approved by Archbishop Benjamin, February 6, 2022",
+    "bylawsDownload": "Download Bylaws (PDF)"
   },
   "footer": {
     "tagline": "A community of faith in the heart of Los Angeles",
