@@ -93,10 +93,10 @@ export const newsItems: NewsItem[] = [
   {
     id: "n3",
     date: "January 10, 2026",
-    titleEn: "St. Xenia Ministry Distributes Winter Aid Packages",
+    titleEn: "St. Ksenia Society Distributes Winter Aid Packages",
     titleRu: "Служение св. Ксении раздало зимние пакеты помощи",
     summaryEn:
-      "In January, volunteers from the St. Xenia Ministry distributed over 200 winter aid packages to homeless individuals and low-income families in the Echo Park area.",
+      "In January, volunteers from the St. Ksenia Society distributed over 200 winter aid packages to homeless individuals and low-income families in the Echo Park area.",
     summaryRu:
       "В январе волонтёры служения св. Ксении раздали более 200 зимних пакетов помощи бездомным и малообеспеченным семьям в районе Echo Park.",
     bodyEn:

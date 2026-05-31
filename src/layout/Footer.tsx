@@ -25,7 +25,7 @@ export default function Footer() {
             <p className={styles["footer__contact-item"]}>
               Los Angeles, CA 90026
             </p>
-            <p className={styles["footer__contact-item"]}>+1 (323) 661-2928</p>
+            <p className={styles["footer__contact-item"]}>+1 (323) 661-7000</p>
             <p className={styles["footer__contact-item"]}>office@hvmla.org</p>
           </div>
 
