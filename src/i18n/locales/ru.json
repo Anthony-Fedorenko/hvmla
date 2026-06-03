@@ -9,6 +9,8 @@
     "choir": "Хор",
     "catechism": "Катехизическая школа",
     "sisterhood": "Сестричество",
+    "stBarbara": "Малое сестричество св. Варвары",
+    "loves": "L.O.V.E.S.",
     "services": "Богослужения",
     "schedule": "Расписание богослужений",
     "liveStreams": "Прямые трансляции",
@@ -116,7 +118,19 @@
     "sisterM4": "Сбор средств и поддержка приходских мероприятий",
     "sisterM5": "Поддержка православных духовных семинарий и епархии",
     "sisterJoinTitle": "Как вступить",
-    "sisterJoinText": "Сестричество радо приветствовать новых членов и помощниц! Сестричество находится под покровительством Пресвятой и Животворящей Троицы и ежегодно празднует свой праздник во 2-й день Пятидесятницы (День Святого Духа). Обращайтесь в Сестричество за дополнительной информацией."
+    "sisterJoinText": "Сестричество радо приветствовать новых членов и помощниц! Сестричество находится под покровительством Пресвятой и Животворящей Троицы и ежегодно празднует свой праздник во 2-й день Пятидесятницы (День Святого Духа). Обращайтесь в Сестричество за дополнительной информацией.",
+
+    "barbaraTitle": "Малое сестричество св. Варвары",
+    "barbaraDesc": "С сентября 2025 года по благословению протоиерея Назария возобновило свою деятельность Малое сестричество святой великомученицы Варвары. Его участницы — девочки от 5 лет и старше — несут свои малые церковные послушания во время воскресных и праздничных Божественных литургий. Они помогают ухаживать за подсвечниками, раздают прихожанам листки с молитвами для совместной молитвы, собирают пожертвования и выполняют другие послушания в храме. Помогая и участвуя в жизни прихода, девочки учатся ответственности, любви к храму и церковным службам. Сестричество помогает им почувствовать себя частью приходской семьи, быть полезными своему приходу и найти своё место в жизни Церкви.",
+
+    "lovesTitle": "L.O.V.E.S.",
+    "lovesDesc": "The Los Angeles Orthodox Visitors to Elderly and Sick (L.O.V.E.S.) is a parish organization that visits the elderly and sick in homes, hospitals, and convalescent homes. L.O.V.E.S. provides assistance to parishioners as needed, delivers meals to those unable to attend church, and contributes physical and financial support to St. John of Kronstadt Home for the Elderly.",
+    "lovesActivities": "Our Activities",
+    "lovesA1": "Visits to the elderly and sick in homes, hospitals, and convalescent homes",
+    "lovesA2": "Assistance to parishioners in need",
+    "lovesA3": "Meal delivery to those unable to attend church",
+    "lovesA4": "Physical and financial support of St. John of Kronstadt Home for the Elderly",
+    "lovesA5": "Fund-raising events for the benefit of elderly and infirm parishioners"
   },
   "services": {
     "scheduleTitle": "Расписание богослужений",

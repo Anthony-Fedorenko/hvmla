@@ -9,6 +9,8 @@
     "choir": "Choir",
     "catechism": "Catechism School",
     "sisterhood": "Sisterhood",
+    "stBarbara": "St. Barbara Sisterhood",
+    "loves": "L.O.V.E.S.",
     "services": "Services",
     "schedule": "Service Schedule",
     "liveStreams": "Live Streams",
@@ -116,7 +118,19 @@
     "sisterM4": "Charitable fund-raising and sponsoring parish enterprises",
     "sisterM5": "Support of Orthodox theological seminaries and the Diocese of the West",
     "sisterJoinTitle": "How to Join",
-    "sisterJoinText": "The Sisterhood welcomes new members and helpers! The Sisterhood is under the protection of the Holy and Lifegiving Trinity and celebrates its Feast Day annually on the 2nd day of Pentecost (Holy Spirit Day). Please speak with the Sisterhood for more information."
+    "sisterJoinText": "The Sisterhood welcomes new members and helpers! The Sisterhood is under the protection of the Holy and Lifegiving Trinity and celebrates its Feast Day annually on the 2nd day of Pentecost (Holy Spirit Day). Please speak with the Sisterhood for more information.",
+
+    "barbaraTitle": "Little Sisterhood of Saint Barbara",
+    "barbaraDesc": "In September 2025, with the blessing of Archpriest Nazariy, the Little Sisterhood of Saint Barbara the Great Martyr resumed its activities. Its members—girls aged 5 and older—perform their small church duties during Sunday and feast-day Divine Liturgies. They help care for the candlesticks, distribute prayer sheets to parishioners for communal prayer, collect donations, and perform other duties in the church. By helping and participating in parish life, the girls learn responsibility and a love for the church and its services. The Sisterhood helps them feel like part of the parish family, be of service to their parish, and find their place in the life of the Church.",
+
+    "lovesTitle": "L.O.V.E.S.",
+    "lovesDesc": "The Los Angeles Orthodox Visitors to Elderly and Sick (L.O.V.E.S.) is a parish organization that visits the elderly and sick in homes, hospitals, and convalescent homes. L.O.V.E.S. provides assistance to parishioners as needed, delivers meals to those unable to attend church, and contributes physical and financial support to St. John of Kronstadt Home for the Elderly.",
+    "lovesActivities": "Our Activities",
+    "lovesA1": "Visits to the elderly and sick in homes, hospitals, and convalescent homes",
+    "lovesA2": "Assistance to parishioners in need",
+    "lovesA3": "Meal delivery to those unable to attend church",
+    "lovesA4": "Physical and financial support of St. John of Kronstadt Home for the Elderly",
+    "lovesA5": "Fund-raising events for the benefit of elderly and infirm parishioners"
   },
   "services": {
     "scheduleTitle": "Service Schedule",

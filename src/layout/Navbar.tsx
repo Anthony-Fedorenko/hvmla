@@ -18,13 +18,23 @@ const NAV_ITEMS = [
     label: "nav.ministries",
     children: [
       { key: "stXenia", label: "nav.stXenia", to: "/ministries/st-xenia" },
-      { key: "choir", label: "nav.choir", to: "/ministries/choir" },
-      { key: "catechism", label: "nav.catechism", to: "/ministries/catechism" },
       {
         key: "sisterhood",
         label: "nav.sisterhood",
         to: "/ministries/sisterhood",
       },
+      {
+        key: "stBarbara",
+        label: "nav.stBarbara",
+        to: "/ministries/st-barbara",
+      },
+      {
+        key: "loves",
+        label: "nav.loves",
+        to: "/ministries/loves",
+      },
+      { key: "choir", label: "nav.choir", to: "/ministries/choir" },
+      { key: "catechism", label: "nav.catechism", to: "/ministries/catechism" },
       {
         key: "sundaySchool",
         label: "nav.sundaySchool",

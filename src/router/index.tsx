@@ -12,6 +12,8 @@ import StXenia from "../pages/ministries/StXenia";
 import Choir from "../pages/ministries/Choir";
 import CatechismSchool from "../pages/ministries/CatechismSchool";
 import Sisterhood from "../pages/ministries/Sisterhood";
+import StBarbara from "../pages/ministries/StBarbara";
+import LOVES from "../pages/ministries/LOVES";
 
 // Services
 import ServiceSchedule from "../pages/services/ServiceSchedule";
@@ -58,6 +60,8 @@ export const router = createBrowserRouter([
       { path: "ministries/choir", element: <Choir /> },
       { path: "ministries/catechism", element: <CatechismSchool /> },
       { path: "ministries/sisterhood", element: <Sisterhood /> },
+      { path: "ministries/st-barbara", element: <StBarbara /> },
+      { path: "ministries/loves", element: <LOVES /> },
 
       { path: "services/schedule", element: <ServiceSchedule /> },
       { path: "services/live", element: <LiveStreams /> },
