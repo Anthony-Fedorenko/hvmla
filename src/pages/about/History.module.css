@@ -1,0 +1,92 @@
+.prose {
+  max-width: 800px;
+}
+
+/* Floated photo figures */
+.figRight {
+  float: right;
+  max-width: 38%;
+  margin: 0.25rem 0 var(--space-md) var(--space-lg);
+}
+
+.figLeft {
+  float: left;
+  max-width: 38%;
+  margin: 0.25rem var(--space-lg) var(--space-md) 0;
+}
+
+.figCenter {
+  clear: both;
+  max-width: 56%;
+  margin: var(--space-md) auto var(--space-lg);
+}
+
+.figRight img,
+.figLeft img,
+.figCenter img {
+  width: 100%;
+  display: block;
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-md);
+}
+
+.figcaption {
+  font-family: var(--font-serif);
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+  font-style: italic;
+  margin-top: 0.45rem;
+  line-height: 1.45;
+  text-align: center;
+  padding: 0 0.2rem;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.foreword {
+  border-left: 3px solid var(--color-accent);
+  padding: var(--space-md) var(--space-lg);
+  margin: 0 0 var(--space-xl) 0;
+  background: var(--color-accent-light);
+  border-radius: 0 4px 4px 0;
+}
+
+.foreword p {
+  font-style: italic;
+  color: var(--color-text-secondary);
+}
+
+.foreword p:last-of-type {
+  margin-bottom: var(--space-xs);
+}
+
+.foreword cite {
+  font-family: var(--font-serif);
+  font-size: 0.9rem;
+  color: var(--color-accent);
+  font-style: normal;
+  display: block;
+}
+
+.sectionTitle {
+  margin-bottom: var(--space-md);
+  padding-bottom: var(--space-xs);
+  border-bottom: 2px solid var(--color-accent-light);
+}
+
+@media (max-width: 768px) {
+  .figRight,
+  .figLeft {
+    float: none;
+    max-width: 100%;
+    margin: 0 0 var(--space-md) 0;
+  }
+
+  .figCenter {
+    max-width: 100%;
+  }
+}
