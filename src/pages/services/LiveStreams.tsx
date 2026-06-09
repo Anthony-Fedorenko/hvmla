@@ -34,7 +34,7 @@ export default function LiveStreams() {
             {t("services.noStream")}
           </p>
           <a
-            href="https://www.youtube.com/@hvmla/live"
+            href="https://www.youtube.com/@hvmcathedral100/live"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn--primary"

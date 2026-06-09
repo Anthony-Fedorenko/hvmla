@@ -60,7 +60,7 @@ export default function StreamArchive() {
           </div>
 
           <a
-            href="https://www.youtube.com/@hvmla/videos"
+            href="https://www.youtube.com/@hvmcathedral100/videos"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn--outline"

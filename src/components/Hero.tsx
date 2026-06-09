@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import styles from "./Hero.module.css";
 
 const PAYPAL_DONATE_URL =
-  "https://www.paypal.com/donate?token=4OOxhNtTwTSh1FdVoJrs1gjbuFWWCDVbRLpQ1s-XDybQ6-Wi170bzg8_eqzMs7wXdOR4uIDnnwMnRu8m";
+  "https://www.paypal.com/donate/?hosted_button_id=UTTJXGRC5TRQY";
 
 export default function Hero() {
   const { t } = useTranslation();
