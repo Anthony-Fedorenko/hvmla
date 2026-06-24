@@ -3,7 +3,8 @@
   min-height: 88vh;
   display: flex;
   align-items: center;
-  background: linear-gradient(160deg, #1a1512 0%, #2d2318 50%, #1a1512 100%);
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url("/hvmla_hero-web.jpg") center / cover no-repeat;
   overflow: hidden;
 }
 
@@ -55,7 +56,7 @@
 
 .hero__subtitle {
   font-size: 1rem;
-  color: #b09988;
+  color: #f5efe8;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   margin-bottom: 0.5rem;
@@ -64,7 +65,7 @@
 
 .hero__oca {
   font-size: 0.8rem;
-  color: #8a7060;
+  color: rgba(245, 239, 232, 0.7);
   letter-spacing: 0.1em;
   text-transform: uppercase;
   margin-bottom: var(--space-xl);
@@ -74,6 +75,28 @@
   display: flex;
   gap: var(--space-sm);
   flex-wrap: wrap;
+}
+
+.hero__cta :global(.btn--primary) {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  border: 1.5px solid rgba(255, 255, 255, 0.6);
+}
+
+.hero__cta :global(.btn--primary):hover {
+  background-color: rgba(255, 255, 255, 0.28);
+  color: #fff;
+}
+
+.hero__cta :global(.btn--outline) {
+  background-color: transparent;
+  color: #fff;
+  border: 1.5px solid rgba(255, 255, 255, 0.5);
+}
+
+.hero__cta :global(.btn--outline):hover {
+  background-color: rgba(255, 255, 255, 0.18);
+  color: #fff;
 }
 
 .hero__divider {
