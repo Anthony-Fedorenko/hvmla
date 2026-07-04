@@ -75,7 +75,9 @@
     "clergySubtitle": "Meet the people who lead and serve our community",
     "rector": "Rector",
     "archpriest": "Archpriest",
+    "associatePastor": "Associate Pastor, Sacristan",
     "protodeacon": "Protodeacon",
+    "protodeaconAssistant": "Protodeacon, Pastoral Assistant",
     "deacon": "Deacon",
     "reader": "Reader",
     "administrator": "Parish Administrator",
@@ -299,7 +301,7 @@
     "tagline": "A community of faith in the heart of Los Angeles",
     "quickLinks": "Quick Links",
     "contactUs": "Contact Us",
-    "diocese": "Diocese of the West",
+    "diocese": "Diocese of the West · Orthodox Church in America",
     "affiliates": "Our Affiliates",
     "copyright": "© {{year}} Holy Virgin Mary Russian Orthodox Cathedral. All rights reserved.",
     "madeWith": "Built with love for our parish community."
