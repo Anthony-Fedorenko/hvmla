@@ -222,6 +222,16 @@ export const upcomingServices: ServiceDay[] = [
     slots: [
       { time: "9:30 AM", titleEn: "Confession — Belltower Church of St. Herman", titleRu: "Исповедь — храм Прп. Германа" },
       { time: "10:00 AM", titleEn: "Divine Liturgy — Belltower Church of St. Herman", titleRu: "Литургия — храм Прп. Германа" },
+    ],
+  },
+  {
+    id: "jul28-eve",
+    date: "July 28",
+    dateISO: "2026-07-28",
+    dayOfWeekEn: "Tuesday",
+    dayOfWeekRu: "Вторник",
+    icon: "✦",
+    slots: [
       {
         time: "7:00 PM",
         titleEn: 'Akathist before the icon of Our Most Holy Lady Theotokos "Rescuer of the Perishing"',
