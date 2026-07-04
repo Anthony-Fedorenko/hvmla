@@ -12,7 +12,7 @@ export default function UpcomingServices() {
 
   // Flatten all slots from upcoming (today or future) days, show first 4
   const flatSlots = upcomingServices
-    .filter((day) => day.dateISO >= todayISO)
+    .filter((day) => day.dateISO >= todayISO && !day.isNotice)
     .flatMap((day) =>
       day.slots.map((slot) => ({
         id: `${day.id}-${slot.time}`,
