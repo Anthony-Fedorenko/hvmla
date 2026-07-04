@@ -267,7 +267,7 @@ export default function History() {
             </p>
 
             <Photo
-              src="/photo-12.jpg"
+              src="/photo-9.jpg"
               caption="View of the Holy Virgin Mary church from Micheltorena Street 10 years after construction"
               side="left"
             />
@@ -339,7 +339,7 @@ export default function History() {
             <div className={styles.clearfix} />
 
             <Photo
-              src="/photo-13.jpg"
+              src="/photo-10.jpg"
               caption='The original icon "Rescuer of the Perishing" (17th century), now preserved in the Church of the Resurrection Slovuscheye "on the Dormition Creek" in Moscow'
               side="center"
             />
@@ -352,12 +352,6 @@ export default function History() {
         <div className="container">
           <div className={styles.prose}>
             <h2 className={styles.sectionTitle}>Back to Los Angeles</h2>
-
-            <Photo
-              src="/photo-9.jpg"
-              caption="Photo of the Resurrection icon from the High Place"
-              side="right"
-            />
 
             <p>
               Lacking the means and opportunity to commission the making of
@@ -382,7 +376,7 @@ export default function History() {
             <div className={styles.clearfix} />
 
             <Photo
-              src="/photo-10.jpg"
+              src="/photo-11.jpg"
               caption="Archpriest Paul Limarov (rector in 1931–1935) with Matushka"
               side="left"
             />
@@ -409,7 +403,7 @@ export default function History() {
             <div className={styles.clearfix} />
 
             <Photo
-              src="/photo-11.jpg"
+              src="/photo-12.jpg"
               caption="The first parishioners of the church, in the center — Princess Lyubov Golitsyna, early 1930s"
               side="right"
             />
@@ -441,7 +435,7 @@ export default function History() {
             <div className={styles.clearfix} />
 
             <Photo
-              src="/photo-14.jpg"
+              src="/photo-13.jpg"
               caption="Blessing of the parish house. Archpriest Gregory Prozorov (rector in 1935–1946) is a priest at the right hand of the Metropolitan"
               side="left"
             />
@@ -457,12 +451,12 @@ export default function History() {
             <div className={styles.clearfix} />
 
             <Photo
-              src="/photo-15.jpg"
+              src="/photo-14.jpg"
               caption="Sergei Rachmaninoff on the forecourt of his Beverly Hills home. The last photograph taken in August 1942"
               side="right"
             />
             <Photo
-              src="/photo-16.jpg"
+              src="/photo-15.jpg"
               caption="The family icon of the Great Martyr Panteleimon, which belonged to S. Rachmaninoff and after his death was given to Holy Virgin Mary church"
               side="left"
             />
@@ -482,7 +476,7 @@ export default function History() {
             <div className={styles.clearfix} />
 
             <Photo
-              src="/photo-17.jpg"
+              src="/photo-16.jpg"
               caption="The parish's Memorial book"
               side="right"
             />
@@ -495,7 +489,7 @@ export default function History() {
             <div className={styles.clearfix} />
 
             <Photo
-              src="/photo-18.jpg"
+              src="/photo-17.jpg"
               caption="Archimandrite John (Shakhovskoy), rector in 1946–1947, performs the Funeral of Fr. Gregory Prozorov, May 11, 1946"
               side="left"
             />
@@ -519,7 +513,7 @@ export default function History() {
             <div className={styles.clearfix} />
 
             <Photo
-              src="/photo-19.jpg"
+              src="/photo-18.jpg"
               caption="Bishop John (Shakhovskoy), Protopresbyter Alexander Kukulevsky (rector in 1947–1957, the priest on the left), and parishioners, September 1953"
               side="right"
             />
@@ -538,7 +532,7 @@ export default function History() {
             <div className={styles.clearfix} />
 
             <Photo
-              src="/photo-20.jpg"
+              src="/photo-19.jpg"
               caption="Archpriest Dimitri Gizetti (rector in 1957–1979) with parishioners in the church before its completion, late 1950s"
               side="left"
             />
@@ -560,7 +554,7 @@ export default function History() {
             <div className={styles.clearfix} />
 
             <Photo
-              src="/photo-21.jpg"
+              src="/photo-20.jpg"
               caption="Expansion of the church, 1959"
               side="right"
             />
@@ -579,7 +573,7 @@ export default function History() {
             <div className={styles.clearfix} />
 
             <Photo
-              src="/photo-22.jpg"
+              src="/photo-21.jpg"
               caption="Consecration of the renovated church, February 21, 1960"
               side="left"
             />
@@ -604,7 +598,7 @@ export default function History() {
             <div className={styles.clearfix} />
 
             <Photo
-              src="/photo-23.jpg"
+              src="/photo-22.jpg"
               caption="Natalie Wood's wedding"
               side="right"
             />
@@ -629,7 +623,7 @@ export default function History() {
             <div className={styles.clearfix} />
 
             <Photo
-              src="/photo-24.jpg"
+              src="/photo-23.jpg"
               caption="Hieromonk Hilary (Madison) with parishioners"
               side="left"
             />
@@ -657,7 +651,7 @@ export default function History() {
             <div className={styles.clearfix} />
 
             <Photo
-              src="/photo-25.jpg"
+              src="/photo-24.jpg"
               caption="Construction of the bell tower and Sunday School building"
               side="right"
             />
@@ -687,7 +681,7 @@ export default function History() {
             <div className={styles.clearfix} />
 
             <Photo
-              src="/photo-26.jpg"
+              src="/photo-25.jpg"
               caption="Priest Stephen (Fitzgerald)"
               side="left"
             />
@@ -709,7 +703,7 @@ export default function History() {
             <div className={styles.clearfix} />
 
             <Photo
-              src="/photo-27.jpg"
+              src="/photo-26.jpg"
               caption="Bishop Tikhon (Fitzgerald), rector in 1980–2005"
               side="right"
             />
@@ -731,7 +725,7 @@ export default function History() {
             <div className={styles.clearfix} />
 
             <Photo
-              src="/photo-28.jpg"
+              src="/photo-27.jpg"
               caption="The interior of the church with the first iconostasis, 1980s"
               side="left"
             />
@@ -751,6 +745,15 @@ export default function History() {
               On October 1, 2015, Archpriest Nazari Polatayko celebrated his
               first service as the new rector of the cathedral.
             </p>
+
+            <div className={styles.clearfix} />
+
+            <Photo
+              src="/photo-28.jpg"
+              caption="Archpriest Nazari Polataiko (2015-present)"
+              side="right"
+            />
+
             <p>
               In 2018, the St. Herman of Alaska Chapel was converted into a
               baptistery and was rededicated in the name of the same saint by
