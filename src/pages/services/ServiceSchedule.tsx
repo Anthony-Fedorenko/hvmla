@@ -8,7 +8,7 @@ export default function ServiceSchedule() {
   const todayISO = new Date().toLocaleDateString("en-CA");
 
   useEffect(() => {
-    document.title = `${t("services.scheduleTitle")} | Holy Virgin Mary Cathedral`;
+    document.title = `${t("services.scheduleTitle")} | Holy Virgin Mary Russian Orthodox Cathedral`;
   }, [t]);
 
   return (

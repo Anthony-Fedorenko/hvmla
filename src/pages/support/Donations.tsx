@@ -16,7 +16,7 @@ export default function Donations() {
   const { t } = useTranslation();
 
   useEffect(() => {
-    document.title = `${t("support.donationsTitle")} | Holy Virgin Mary Cathedral`;
+    document.title = `${t("support.donationsTitle")} | Holy Virgin Mary Russian Orthodox Cathedral`;
   }, [t]);
 
   return (

@@ -6,7 +6,7 @@ export default function CatechismSchool() {
   const { t } = useTranslation();
 
   useEffect(() => {
-    document.title = `${t("ministries.catTitle")} | Holy Virgin Mary Cathedral`;
+    document.title = `${t("ministries.catTitle")} | Holy Virgin Mary Russian Orthodox Cathedral`;
   }, [t]);
 
   return (

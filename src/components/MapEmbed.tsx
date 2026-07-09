@@ -23,7 +23,7 @@ export default function MapEmbed({ title, subtitle, className }: Props) {
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="Holy Virgin Mary Cathedral location"
+            title="Holy Virgin Mary Russian Orthodox Cathedral location"
           />
         </div>
       </div>

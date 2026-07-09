@@ -14,7 +14,7 @@ export default function LOVES() {
   const { t } = useTranslation();
 
   useEffect(() => {
-    document.title = `${t("ministries.lovesTitle")} | Holy Virgin Mary Cathedral`;
+    document.title = `${t("ministries.lovesTitle")} | Holy Virgin Mary Russian Orthodox Cathedral`;
   }, [t]);
 
   return (

@@ -5,7 +5,7 @@ export default function StBarbara() {
   const { t } = useTranslation();
 
   useEffect(() => {
-    document.title = `${t("ministries.barbaraTitle")} | Holy Virgin Mary Cathedral`;
+    document.title = `${t("ministries.barbaraTitle")} | Holy Virgin Mary Russian Orthodox Cathedral`;
   }, [t]);
 
   return (

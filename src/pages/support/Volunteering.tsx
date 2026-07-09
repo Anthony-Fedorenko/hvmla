@@ -17,7 +17,7 @@ export default function Volunteering() {
   const { t } = useTranslation();
 
   useEffect(() => {
-    document.title = `${t("support.volunteeringTitle")} | Holy Virgin Mary Cathedral`;
+    document.title = `${t("support.volunteeringTitle")} | Holy Virgin Mary Russian Orthodox Cathedral`;
   }, [t]);
 
   return (

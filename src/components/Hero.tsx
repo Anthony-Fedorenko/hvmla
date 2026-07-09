@@ -16,7 +16,7 @@ export default function Hero() {
           <div className={styles.hero__logoWrap}>
             <img
               src="/hvmla_logo.png"
-              alt="Holy Virgin Mary Cathedral"
+              alt="Holy Virgin Mary Russian Orthodox Cathedral"
               className={styles.hero__logo}
             />
           </div>

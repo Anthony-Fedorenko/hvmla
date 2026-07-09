@@ -6,7 +6,7 @@ export default function AddressMap() {
   const { t } = useTranslation();
 
   useEffect(() => {
-    document.title = `${t("contact.mapTitle")} | Holy Virgin Mary Cathedral`;
+    document.title = `${t("contact.mapTitle")} | Holy Virgin Mary Russian Orthodox Cathedral`;
   }, [t]);
 
   return (

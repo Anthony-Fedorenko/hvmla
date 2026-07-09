@@ -15,8 +15,11 @@ export default function Footer() {
             <p className={styles["footer__brand-name"]}>
               Holy Virgin Mary Russian Orthodox Cathedral
             </p>
+            <p className={styles["footer__brand-diocese"]} style={{ marginBottom: "0.15rem" }}>
+              Diocese of the West
+            </p>
             <p className={styles["footer__brand-diocese"]}>
-              {t("footer.diocese")}
+              Orthodox Church in America
             </p>
             <p className={styles.footer__tagline}>{t("footer.tagline")}</p>
             <p className={styles["footer__contact-item"]}>

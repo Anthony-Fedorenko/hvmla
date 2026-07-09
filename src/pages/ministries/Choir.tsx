@@ -6,7 +6,7 @@ export default function Choir() {
   const { t } = useTranslation();
 
   useEffect(() => {
-    document.title = `${t("ministries.choirTitle")} | Holy Virgin Mary Cathedral`;
+    document.title = `${t("ministries.choirTitle")} | Holy Virgin Mary Russian Orthodox Cathedral`;
   }, [t]);
 
   return (

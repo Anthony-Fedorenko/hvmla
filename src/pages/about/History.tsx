@@ -27,7 +27,7 @@ export default function History() {
   const { t } = useTranslation();
 
   useEffect(() => {
-    document.title = `${t("about.historyTitle")} | Holy Virgin Mary Cathedral`;
+    document.title = `${t("about.historyTitle")} | Holy Virgin Mary Russian Orthodox Cathedral`;
   }, [t]);
 
   return (
@@ -742,7 +742,7 @@ export default function History() {
               the unity of Russian- and English-speaking parishioners.
             </p>
             <p>
-              On October 1, 2015, Archpriest Nazari Polatayko celebrated his
+              On October 1, 2015, Archpriest Nazari Polataiko celebrated his
               first service as the new rector of the cathedral.
             </p>
 

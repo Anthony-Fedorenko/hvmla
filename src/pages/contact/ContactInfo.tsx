@@ -5,7 +5,7 @@ export default function ContactInfo() {
   const { t } = useTranslation();
 
   useEffect(() => {
-    document.title = `${t("contact.infoTitle")} | Holy Virgin Mary Cathedral`;
+    document.title = `${t("contact.infoTitle")} | Holy Virgin Mary Russian Orthodox Cathedral`;
   }, [t]);
 
   const INFO_ROWS = [

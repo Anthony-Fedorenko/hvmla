@@ -38,6 +38,7 @@ import Volunteering from "../pages/support/Volunteering";
 // Cafe / Museum
 import Cafe from "../pages/cafe/Cafe";
 import Museum from "../pages/cafe/Museum";
+import Library from "../pages/cafe/Library";
 
 // Contact
 import ContactInfo from "../pages/contact/ContactInfo";
@@ -80,6 +81,7 @@ export const router = createBrowserRouter([
 
       { path: "cafe", element: <Cafe /> },
       { path: "museum", element: <Museum /> },
+      { path: "library", element: <Library /> },
 
       { path: "contact/info", element: <ContactInfo /> },
       { path: "contact/map", element: <AddressMap /> },

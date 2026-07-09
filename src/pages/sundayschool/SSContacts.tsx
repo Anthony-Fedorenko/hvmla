@@ -6,7 +6,7 @@ export default function SSContacts() {
   const { t } = useTranslation();
 
   useEffect(() => {
-    document.title = `${t("sundaySchool.contactTitle")} | Holy Virgin Mary Cathedral`;
+    document.title = `${t("sundaySchool.contactTitle")} | Holy Virgin Mary Russian Orthodox Cathedral`;
   }, [t]);
 
   return (

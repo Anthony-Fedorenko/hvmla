@@ -5,7 +5,7 @@ export default function AboutServices() {
   const { t } = useTranslation();
 
   useEffect(() => {
-    document.title = `${t("services.aboutTitle")} | Holy Virgin Mary Cathedral`;
+    document.title = `${t("services.aboutTitle")} | Holy Virgin Mary Russian Orthodox Cathedral`;
   }, [t]);
 
   return (

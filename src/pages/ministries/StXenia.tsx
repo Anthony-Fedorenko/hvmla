@@ -14,7 +14,7 @@ export default function StXenia() {
   const { t } = useTranslation();
 
   useEffect(() => {
-    document.title = `${t("ministries.xeniaTitlePage")} | Holy Virgin Mary Cathedral`;
+    document.title = `${t("ministries.xeniaTitlePage")} | Holy Virgin Mary Russian Orthodox Cathedral`;
   }, [t]);
 
   return (

@@ -14,7 +14,7 @@ export default function Sisterhood() {
   const { t } = useTranslation();
 
   useEffect(() => {
-    document.title = `${t("ministries.sisterTitle")} | Holy Virgin Mary Cathedral`;
+    document.title = `${t("ministries.sisterTitle")} | Holy Virgin Mary Russian Orthodox Cathedral`;
   }, [t]);
 
   return (

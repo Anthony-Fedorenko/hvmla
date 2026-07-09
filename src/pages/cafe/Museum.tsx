@@ -7,7 +7,7 @@ export default function Museum() {
   const { t } = useTranslation();
 
   useEffect(() => {
-    document.title = `${t("cafe.museumTitle")} | Holy Virgin Mary Cathedral`;
+    document.title = `${t("cafe.museumTitle")} | Holy Virgin Mary Russian Orthodox Cathedral`;
   }, [t]);
 
   return (

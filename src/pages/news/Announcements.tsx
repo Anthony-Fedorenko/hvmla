@@ -7,7 +7,7 @@ export default function Announcements() {
   const lang = i18n.language === "ru" ? "ru" : "en";
 
   useEffect(() => {
-    document.title = `${t("news.announcementsTitle")} | Holy Virgin Mary Cathedral`;
+    document.title = `${t("news.announcementsTitle")} | Holy Virgin Mary Russian Orthodox Cathedral`;
   }, [t]);
 
   return (

@@ -29,7 +29,7 @@ export default function Bulletin() {
   const lang = i18n.language === "ru" ? "ru" : "en";
 
   useEffect(() => {
-    document.title = `${t("education.bulletinTitle")} | Holy Virgin Mary Cathedral`;
+    document.title = `${t("education.bulletinTitle")} | Holy Virgin Mary Russian Orthodox Cathedral`;
   }, [t]);
 
   return (

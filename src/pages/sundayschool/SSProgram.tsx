@@ -12,7 +12,7 @@ export default function SSProgram() {
   const { t } = useTranslation();
 
   useEffect(() => {
-    document.title = `${t("sundaySchool.programTitle")} | Holy Virgin Mary Cathedral`;
+    document.title = `${t("sundaySchool.programTitle")} | Holy Virgin Mary Russian Orthodox Cathedral`;
   }, [t]);
 
   return (

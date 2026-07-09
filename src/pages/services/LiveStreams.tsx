@@ -9,7 +9,7 @@ export default function LiveStreams() {
   const { t } = useTranslation();
 
   useEffect(() => {
-    document.title = `${t("services.liveTitle")} | Holy Virgin Mary Cathedral`;
+    document.title = `${t("services.liveTitle")} | Holy Virgin Mary Russian Orthodox Cathedral`;
   }, [t]);
 
   return (

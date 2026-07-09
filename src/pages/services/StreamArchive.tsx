@@ -25,7 +25,7 @@ export default function StreamArchive() {
   const lang = i18n.language === "ru" ? "ru" : "en";
 
   useEffect(() => {
-    document.title = `${t("services.archiveTitle")} | Holy Virgin Mary Cathedral`;
+    document.title = `${t("services.archiveTitle")} | Holy Virgin Mary Russian Orthodox Cathedral`;
   }, [t]);
 
   return (

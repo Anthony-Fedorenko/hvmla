@@ -29,7 +29,7 @@ export default function Books() {
   const { t } = useTranslation();
 
   useEffect(() => {
-    document.title = `${t("education.booksTitle")} | Holy Virgin Mary Cathedral`;
+    document.title = `${t("education.booksTitle")} | Holy Virgin Mary Russian Orthodox Cathedral`;
   }, [t]);
 
   return (

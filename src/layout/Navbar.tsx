@@ -93,6 +93,7 @@ const NAV_ITEMS = [
     children: [
       { key: "cafeMenu", label: "nav.cafeMenu", to: "/cafe" },
       { key: "museum", label: "nav.museum", to: "/museum" },
+      { key: "library", label: "nav.library", to: "/library" },
     ],
   },
   {

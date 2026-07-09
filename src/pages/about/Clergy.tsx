@@ -31,7 +31,7 @@ const STAFF: StaffMember[] = [
     phone: "(747) 241-9993",
     photo: "/volodymyr-web.jpg",
     bioEn:
-      "Born on November 12, 1976, in Cherkasy, Ukraine.\n\nGraduated with honors from the Moscow Theological Seminary in 1998 and from the School of Theology of Aristotle University of Thessaloniki, Greece, in 2003. He also received a degree in organizational management.\n\nFor many years he worked in the field of church media and educational outreach, participating in the creation and development of Orthodox informational and television projects. From 2010 to 2022, he served as Director of the Pilgrimage Center of the Department for External Church Relations of the Ukrainian Orthodox Church, organizing pilgrimages to holy sites throughout the world.\n\nSince April 2023, he has served at Holy Virgin Mary Cathedral in Los Angeles, California, USA.\n\nHe is fluent in Ukrainian, Russian, Greek, and English. He is married and has three children.",
+      "Born on November 12, 1976, in Cherkasy, Ukraine.\n\nGraduated with honors from the Moscow Theological Seminary in 1998 and from the School of Theology of Aristotle University of Thessaloniki, Greece, in 2003. He also received a degree in organizational management.\n\nFor many years he worked in the field of church media and educational outreach, participating in the creation and development of Orthodox informational and television projects. From 2010 to 2022, he served as Director of the Pilgrimage Center of the Department for External Church Relations of the Ukrainian Orthodox Church, organizing pilgrimages to holy sites throughout the world.\n\nSince April 2023, he has served at Holy Virgin Mary Russian Orthodox Cathedral in Los Angeles, California, USA.\n\nHe is fluent in Ukrainian, Russian, Greek, and English. He is married and has three children.",
     bioRu:
       "Родился 12 ноября 1976 года в городе Черкассы (Украина).\n\nС отличием в 1998 г. окончил Московскую духовную семинарию (РФ) и в 2003 г. - богословский факультет Фессалоникийского Университета имени Аристотеля (Греция). Также получил образование в области менеджмента организаций.\n\nНа протяжении многих лет трудился в сфере церковных медиа и просветительской деятельности, участвовал в создании и развитии православных информационных и телевизионных проектов. С 2010 по 2022 год возглавлял Паломнический центр при Отделе внешних церковных связей Украинской Православной Церкви, организуя паломничества к святыням по всему миру.\n\nС апреля 2023 года несет служение в Свято-Богородицком соборе г. Лос-Анджелес (Калифорния, США).\n\nВладеет украинским, русским, греческим и английским языками. Женат, имеет троих детей.",
   },
@@ -42,7 +42,7 @@ const STAFF: StaffMember[] = [
     phone: "(323) 539-6139",
     photo: "/kirill-web.jpg",
     bioEn:
-      "Protodeacon Kirill Dotsenko was born in Moscow in 1987.\n\nIn 2008, was ordained to the Holy Diaconate by Metropolitan Aristarch (Smirnov) of Kemerovo and Novokuznetsk.\n\nIn 2010, graduated from the St. Tikhon's Orthodox Humanitarian University (PSTBI) in Moscow, earning a Bachelor's Degree in Theology.\n\n2011–2019 Secretary of the St Catherine's Church the representation parish of the Orthodox Church in America in Moscow.\n\nIn 2019, graduated from I.M. Sechenov First Moscow State Medical University, earning a Bachelor's Degree in Healthcare Management.\n\nSince February 2019 has served at Holy Virgin Mary Orthodox Cathedral in Los Angeles.",
+      "Protodeacon Kirill Dotsenko was born in Moscow in 1987.\n\nIn 2008, was ordained to the Holy Diaconate by Metropolitan Aristarch (Smirnov) of Kemerovo and Novokuznetsk.\n\nIn 2010, graduated from the St. Tikhon's Orthodox Humanitarian University (PSTBI) in Moscow, earning a Bachelor's Degree in Theology.\n\n2011–2019 Secretary of the St Catherine's Church the representation parish of the Orthodox Church in America in Moscow.\n\nIn 2019, graduated from I.M. Sechenov First Moscow State Medical University, earning a Bachelor's Degree in Healthcare Management.\n\nSince February 2019 has served at Holy Virgin Mary Russian Orthodox Cathedral in Los Angeles.",
     bioRu:
       "Протодиакон Кирилл Доценко родился в Москве в 1987 году.\n\nВ 2008 году рукоположён во диакона митрополитом Кемеровским и Новокузнецким Аристархом (Смирновым).\n\nВ 2010 году окончил Православный Свято-Тихоновский гуманитарный университет (ПСТГУ) в Москве, получив степень бакалавра богословия.\n\n2011–2019 — секретарь подворья святой великомученицы Екатерины — представительского прихода Православной Церкви в Америке в Москве.\n\nВ 2019 году окончил Первый Московский государственный медицинский университет имени И.М. Сеченова по специальности «Управление в здравоохранении».\n\nС февраля 2019 года несёт служение в Свято-Богородицком православном соборе в Лос-Анджелесе.",
   },
@@ -62,7 +62,7 @@ export default function Clergy() {
   const lang = i18n.language === "ru" ? "ru" : "en";
 
   useEffect(() => {
-    document.title = `${t("about.clergyTitle")} | Holy Virgin Mary Cathedral`;
+    document.title = `${t("about.clergyTitle")} | Holy Virgin Mary Russian Orthodox Cathedral`;
   }, [t]);
 
   return (

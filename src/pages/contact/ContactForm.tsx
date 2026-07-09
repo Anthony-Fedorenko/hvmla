@@ -44,7 +44,7 @@ export default function ContactForm() {
   const [status, setStatus] = useState<"idle" | "success" | "error">("idle");
 
   useEffect(() => {
-    document.title = `${t("contact.formTitle")} | Holy Virgin Mary Cathedral`;
+    document.title = `${t("contact.formTitle")} | Holy Virgin Mary Russian Orthodox Cathedral`;
   }, [t]);
 
   const handleChange = (

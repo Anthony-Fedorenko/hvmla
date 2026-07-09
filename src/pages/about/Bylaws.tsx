@@ -5,7 +5,7 @@ export default function Bylaws() {
   const { t } = useTranslation();
 
   useEffect(() => {
-    document.title = `${t("bylaws.bylawsTitle")} | Holy Virgin Mary Cathedral`;
+    document.title = `${t("bylaws.bylawsTitle")} | Holy Virgin Mary Russian Orthodox Cathedral`;
   }, [t]);
 
   return (

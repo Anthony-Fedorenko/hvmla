@@ -13,7 +13,7 @@ export default function PrayerBooks() {
   const { t } = useTranslation();
 
   useEffect(() => {
-    document.title = `${t("education.prayerTitle")} | Holy Virgin Mary Cathedral`;
+    document.title = `${t("education.prayerTitle")} | Holy Virgin Mary Russian Orthodox Cathedral`;
   }, [t]);
 
   return (
