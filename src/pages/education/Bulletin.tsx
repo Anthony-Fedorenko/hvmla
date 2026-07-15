@@ -3,24 +3,29 @@ import { useTranslation } from "react-i18next";
 
 const BULLETINS = [
   {
-    dateEn: "March 28, 2026 — Palm Sunday",
-    dateRu: "28 марта 2026 — Вербное Воскресенье",
-    file: "#",
+    dateEn: "June – July 2026",
+    dateRu: "Июнь – Июль 2026",
+    file: "/bulletin_june_july_2026.pdf",
   },
   {
-    dateEn: "March 21, 2026 — 5th Sunday of Great Lent",
-    dateRu: "21 марта 2026 — 5-е воскресенье Великого Поста",
-    file: "#",
+    dateEn: "May 2026",
+    dateRu: "Май 2026",
+    file: "/bulletin_may_2026.pdf",
   },
   {
-    dateEn: "March 14, 2026 — Forgiveness Sunday",
-    dateRu: "14 марта 2026 — Прощёное Воскресенье",
-    file: "#",
+    dateEn: "April 2026",
+    dateRu: "Апрель 2026",
+    file: "/bulletin_april_2026.pdf",
   },
   {
-    dateEn: "March 7, 2026 — Meatfare Sunday",
-    dateRu: "7 марта 2026 — Мясопустное Воскресенье",
-    file: "#",
+    dateEn: "March 2026",
+    dateRu: "Март 2026",
+    file: "/bulletin_march_2026.pdf",
+  },
+  {
+    dateEn: "February 2026",
+    dateRu: "Февраль 2026",
+    file: "/bulletin_february_2026.pdf",
   },
 ];
 
@@ -84,6 +89,8 @@ export default function Bulletin() {
                 </div>
                 <a
                   href={b.file}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="btn btn--outline"
                   style={{
                     fontSize: "0.82rem",

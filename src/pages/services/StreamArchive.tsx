@@ -4,19 +4,19 @@ import YouTubeEmbed from "../../components/YouTubeEmbed";
 
 const ARCHIVE_VIDEOS = [
   {
-    id: "dQw4w9WgXcQ",
-    titleEn: "Palm Sunday Divine Liturgy – March 28, 2026",
-    titleRu: "Вербное Воскресенье — Литургия 28 марта 2026",
+    id: "kKJ0vPJAv0U",
+    titleEn: "Akathist 7 PM — July 14",
+    titleRu: "Акафист 19:00 — 14 июля",
   },
   {
-    id: "dQw4w9WgXcQ",
-    titleEn: "Sunday Divine Liturgy – March 21, 2026",
-    titleRu: "Воскресная Литургия 21 марта 2026",
+    id: "w6U8hBrU2d0",
+    titleEn: "Sunday Divine Liturgy 10 AM — July 12",
+    titleRu: "Воскресная Литургия 10:00 — 12 июля",
   },
   {
-    id: "dQw4w9WgXcQ",
-    titleEn: "Forgiveness Sunday – March 14, 2026",
-    titleRu: "Прощёное Воскресенье — 14 марта 2026",
+    id: "ewX5N4id7_Q",
+    titleEn: "Sunday Divine Liturgy 10 AM — July 5",
+    titleRu: "Воскресная Литургия 10:00 — 5 июля",
   },
 ];
 
@@ -39,15 +39,9 @@ export default function StreamArchive() {
 
       <div className="section">
         <div className="container">
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              gap: "var(--space-xl)",
-            }}
-          >
-            {ARCHIVE_VIDEOS.map((v, idx) => (
-              <div key={idx}>
+          <div style={{ display: "flex", flexDirection: "column", gap: "var(--space-xl)" }}>
+            {ARCHIVE_VIDEOS.map((v) => (
+              <div key={v.id}>
                 <h3 style={{ marginBottom: "var(--space-md)" }}>
                   {lang === "ru" ? v.titleRu : v.titleEn}
                 </h3>

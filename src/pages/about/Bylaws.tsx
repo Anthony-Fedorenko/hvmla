@@ -40,7 +40,7 @@ export default function Bylaws() {
               {t("bylaws.bylawsAdopted")}
             </p>
             <a
-              href="/bylaws_hvm_2022%20copy.pdf"
+              href="/bylaws_hvm_2022.pdf"
               target="_blank"
               rel="noopener noreferrer"
               download

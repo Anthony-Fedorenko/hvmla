@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
 const EXHIBIT_KEYS = ["cafe.e1", "cafe.e2", "cafe.e3"];
@@ -73,6 +74,17 @@ export default function Museum() {
               </div>
               <div className="card">
                 <p style={{ margin: 0 }}>{t("cafe.museumContact")}</p>
+              </div>
+              <div className="card">
+                <h3 style={{ marginBottom: "var(--space-sm)" }}>
+                  {t("ministries.donateTitle")}
+                </h3>
+                <p style={{ marginBottom: "var(--space-md)" }}>
+                  {t("ministries.donateText")}
+                </p>
+                <Link to="/support/donations" className="btn btn--primary">
+                  {t("ministries.donateButton")}
+                </Link>
               </div>
             </div>
           </div>
