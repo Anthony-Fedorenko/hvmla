@@ -36,4 +36,18 @@ export const newsItems: NewsItem[] = [
       "/news_9.jpg",
     ],
   },
+  {
+    id: "n2",
+    date: "May 31, 2026",
+    titleEn: "Sunday Parish School — End of Year 2025–2026",
+    titleRu: "Приходская Воскресная Школа — Конец Учебного Года 2025–2026",
+    summaryEn:
+      "May was the last month of the school year at our Holy Virgin Russian Orthodox Parish School.",
+    summaryRu:
+      "Май стал последним месяцем учебного года в нашей Приходской Воскресной Школе Святой Девы Марии.",
+    bodyEn:
+      "On May 24, the last day of classes for the school's core subjects took place. On the same day, the youngest group, “Apprentices,” held an open lesson-game titled “What? Where? When?” dedicated to the travels of Ivashka the badger through various countries. The students' parents were invited to attend the lesson.\n\nAlso on May 24, the feast day of Saints Cyril and Methodius, Equal-to-the-Apostles, the Teachers of the Slavs, following the Divine Liturgy, our clergy presented the children with certificates of completion for the 2025–2026 academic year. Students who completed the course “Fundamentals of the Orthodox Faith” were presented with certificates of completion.\n\nOn May 31, Holy Trinity Day, the long-awaited musical performance Puss in Boots took place, becoming a true celebration for children, parents, and parishioners. Before the performance began, a festive lunch was organized for the children, and after the show, the cathedral’s rector, Father Nazariy, addressed the students, teachers, and guests with congratulations, words of gratitude, and pastoral guidance.\n\nWe wholeheartedly thank the teachers for their many months of hard work, our young performers for their dedication, talent, and wonderful performance, as well as all the parishioners who came to support our children.\n\nNow the children’s summer vacation begins. We wish everyone a restful break, new experiences, and God’s blessing. Classes at our school will resume in September.",
+    bodyRu:
+      "24 мая состоялось последнее занятие по основным предметам. В тот же день младшая группа «Ученики» провела открытый урок-игру «Что? Где? Когда?», посвящённый путешествиям ёжика Ивашки по разным странам. На урок были приглашены родители учеников.\n\nТакже 24 мая, в день памяти святых равноапостольных Кирилла и Мефодия, Учителей Словенских, после Божественной Литургии духовенство нашего прихода вручило детям свидетельства об окончании 2025–2026 учебного года. Учащиеся, завершившие курс «Основы Православной Веры», получили свидетельства об его прохождении.\n\n31 мая, в день Святой Троицы, состоялся долгожданный музыкальный спектакль «Кот в сапогах», ставший настоящим праздником для детей, родителей и прихожан. Перед началом представления для детей был организован праздничный обед, а после спектакля настоятель собора, отец Назарий, обратился к ученикам, учителям и гостям с поздравлениями, словами благодарности и пастырским напутствием.\n\nОт всего сердца благодарим учителей за многомесячный самоотверженный труд, наших юных артистов за преданность, талант и замечательное выступление, а также всех прихожан, пришедших поддержать наших детей.\n\nТеперь начинаются летние каникулы. Желаем всем хорошего отдыха, новых впечатлений и Божьего благословения. Занятия в нашей школе возобновятся в сентябре.",
+  },
 ];

@@ -54,9 +54,16 @@ export default function SSInfo() {
       {/* Description */}
       <div className="section">
         <div className="container">
-          <div style={{ maxWidth: "72ch", display: "flex", flexDirection: "column", gap: "var(--space-md)" }}>
-            <p style={{ fontSize: "1.05rem" }}>{t("sundaySchool.infoDesc")}</p>
-            <p style={{ fontSize: "1.05rem" }}>{t("sundaySchool.infoGoal")}</p>
+          <div className="grid-2" style={{ alignItems: "start" }}>
+            <img
+              src="/sunday_school.jpg"
+              alt="Sunday School"
+              style={{ width: "100%", height: "auto", borderRadius: "8px" }}
+            />
+            <div style={{ display: "flex", flexDirection: "column", gap: "var(--space-md)" }}>
+              <p style={{ fontSize: "1.05rem" }}>{t("sundaySchool.infoDesc")}</p>
+              <p style={{ fontSize: "1.05rem" }}>{t("sundaySchool.infoGoal")}</p>
+            </div>
           </div>
         </div>
       </div>

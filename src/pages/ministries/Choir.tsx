@@ -21,21 +21,24 @@ export default function Choir() {
       <div className="section">
         <div className="container">
           <div className="grid-2" style={{ alignItems: "start" }}>
-            <div className="card">
-              <h2
-                style={{ marginBottom: "var(--space-md)", fontSize: "1.3rem" }}
-              >
-                {t("ministries.choirAboutTitle")}
-              </h2>
-              <p style={{ margin: 0 }}>{t("ministries.choirAboutText")}</p>
-            </div>
-            <div className="card">
-              <h2
-                style={{ marginBottom: "var(--space-md)", fontSize: "1.3rem" }}
-              >
-                {t("ministries.rehearsalTitle")}
-              </h2>
-              <p style={{ margin: 0 }}>{t("ministries.rehearsalSchedule")}</p>
+            <img
+              src="/choir.jpg"
+              alt="Choir"
+              style={{ width: "100%", height: "auto", borderRadius: "8px" }}
+            />
+            <div style={{ display: "flex", flexDirection: "column", gap: "var(--space-md)" }}>
+              <div className="card">
+                <h2 style={{ marginBottom: "var(--space-md)", fontSize: "1.3rem" }}>
+                  {t("ministries.choirAboutTitle")}
+                </h2>
+                <p style={{ margin: 0 }}>{t("ministries.choirAboutText")}</p>
+              </div>
+              <div className="card">
+                <h2 style={{ marginBottom: "var(--space-md)", fontSize: "1.3rem" }}>
+                  {t("ministries.rehearsalTitle")}
+                </h2>
+                <p style={{ margin: 0 }}>{t("ministries.rehearsalSchedule")}</p>
+              </div>
             </div>
           </div>
         </div>
