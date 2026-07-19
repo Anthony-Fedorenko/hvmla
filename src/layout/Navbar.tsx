@@ -3,6 +3,8 @@ import { Link, NavLink, useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import styles from "./Navbar.module.css";
 
+const ENGLISH_ONLY = import.meta.env.VITE_DISABLE_RUSSIAN === "true";
+
 const NAV_ITEMS = [
   {
     key: "about",
@@ -194,7 +196,7 @@ export default function Navbar() {
 
         <div className={styles.navbar__right}>
           {/* Language switcher (desktop) */}
-          <div className={styles.navbar__lang}>
+          {!ENGLISH_ONLY && <div className={styles.navbar__lang}>
             <button
               className={`${styles["navbar__lang-btn"]}${i18n.language === "en" ? " " + styles["navbar__lang-btn--active"] : ""}`}
               onClick={() => changeLanguage("en")}
@@ -210,7 +212,7 @@ export default function Navbar() {
             >
               RU
             </button>
-          </div>
+          </div>}
 
           {/* Hamburger */}
           <button
@@ -258,20 +260,22 @@ export default function Navbar() {
           </div>
         ))}
 
-        <div className={styles["navbar__mobile-lang"]}>
-          <button
-            className={`${styles["navbar__lang-btn"]}${i18n.language === "en" ? " " + styles["navbar__lang-btn--active"] : ""}`}
-            onClick={() => changeLanguage("en")}
-          >
-            English
-          </button>
-          <button
-            className={`${styles["navbar__lang-btn"]}${i18n.language === "ru" ? " " + styles["navbar__lang-btn--active"] : ""}`}
-            onClick={() => changeLanguage("ru")}
-          >
-            Русский
-          </button>
-        </div>
+        {!ENGLISH_ONLY && (
+          <div className={styles["navbar__mobile-lang"]}>
+            <button
+              className={`${styles["navbar__lang-btn"]}${i18n.language === "en" ? " " + styles["navbar__lang-btn--active"] : ""}`}
+              onClick={() => changeLanguage("en")}
+            >
+              English
+            </button>
+            <button
+              className={`${styles["navbar__lang-btn"]}${i18n.language === "ru" ? " " + styles["navbar__lang-btn--active"] : ""}`}
+              onClick={() => changeLanguage("ru")}
+            >
+              Русский
+            </button>
+          </div>
+        )}
       </div>
     </nav>
   );
