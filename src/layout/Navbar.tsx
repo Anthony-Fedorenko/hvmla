@@ -11,6 +11,7 @@ const NAV_ITEMS = [
       { key: "history", label: "nav.history", to: "/about/history" },
       { key: "clergy", label: "nav.clergy", to: "/about/clergy" },
       { key: "bylaws", label: "nav.bylaws", to: "/about/bylaws" },
+      { key: "gallery", label: "nav.gallery", to: "/about/gallery" },
     ],
   },
   {

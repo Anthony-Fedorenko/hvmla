@@ -6,6 +6,7 @@ import Home from "../pages/Home";
 import History from "../pages/about/History";
 import Clergy from "../pages/about/Clergy";
 import Bylaws from "../pages/about/Bylaws";
+import Gallery from "../pages/about/Gallery";
 
 // Ministries
 import StXenia from "../pages/ministries/StXenia";
@@ -56,6 +57,7 @@ export const router = createBrowserRouter([
       { path: "about/history", element: <History /> },
       { path: "about/clergy", element: <Clergy /> },
       { path: "about/bylaws", element: <Bylaws /> },
+      { path: "about/gallery", element: <Gallery /> },
 
       { path: "ministries/st-xenia", element: <StXenia /> },
       { path: "ministries/choir", element: <Choir /> },
