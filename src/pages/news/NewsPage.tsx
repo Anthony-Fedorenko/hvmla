@@ -110,6 +110,7 @@ export default function NewsPage() {
                           <img
                             src={src}
                             alt=""
+                            loading="lazy"
                             style={{
                               width: "100%",
                               height: "100%",

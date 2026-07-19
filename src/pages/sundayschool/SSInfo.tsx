@@ -58,6 +58,7 @@ export default function SSInfo() {
             <img
               src="/sunday_school.jpg"
               alt="Sunday School"
+              loading="lazy"
               style={{ width: "100%", height: "auto", borderRadius: "8px" }}
             />
             <div style={{ display: "flex", flexDirection: "column", gap: "var(--space-md)" }}>

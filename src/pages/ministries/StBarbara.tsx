@@ -23,6 +23,7 @@ export default function StBarbara() {
             <img
               src="/st_barbara.jpg"
               alt="St. Barbara Little Sisterhood"
+              loading="lazy"
               style={{ width: "100%", height: "auto", borderRadius: "8px" }}
             />
             <div>

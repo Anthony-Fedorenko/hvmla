@@ -29,6 +29,11 @@ export default function Announcements() {
               maxWidth: "800px",
             }}
           >
+            {announcements.length === 0 && (
+              <p style={{ color: "var(--color-text-muted)", fontSize: "0.95rem" }}>
+                {t("news.noAnnouncements")}
+              </p>
+            )}
             {announcements.map((a) => (
               <article
                 key={a.id}

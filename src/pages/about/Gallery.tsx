@@ -107,6 +107,7 @@ export default function Gallery() {
                     <img
                       src={src}
                       alt=""
+                      loading="lazy"
                       style={{
                         width: "100%",
                         height: "100%",

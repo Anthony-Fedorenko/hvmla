@@ -212,6 +212,7 @@
   "news": {
     "announcementsTitle": "Announcements",
     "announcementsSubtitle": "Important notices and upcoming events",
+    "noAnnouncements": "There are no current announcements. Please check back soon.",
     "newsTitle": "Parish News",
     "newsSubtitle": "Latest news and updates from our community",
     "readMore": "Read More",

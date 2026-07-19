@@ -24,6 +24,7 @@ export default function Choir() {
             <img
               src="/choir.jpg"
               alt="Choir"
+              loading="lazy"
               style={{ width: "100%", height: "auto", borderRadius: "8px" }}
             />
             <div style={{ display: "flex", flexDirection: "column", gap: "var(--space-md)" }}>

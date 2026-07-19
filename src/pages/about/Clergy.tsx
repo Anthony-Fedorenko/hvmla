@@ -82,6 +82,7 @@ export default function Clergy() {
                 <img
                   src={member.photo}
                   alt={lang === "ru" ? member.nameRu : member.nameEn}
+                  loading="lazy"
                   className={styles.clergyPhoto}
                 />
                 <div style={{ flex: 1, minWidth: 0 }}>
