@@ -4,6 +4,11 @@ import YouTubeEmbed from "../../components/YouTubeEmbed";
 
 const ARCHIVE_VIDEOS = [
   {
+    id: "kdI4MjLhQvA",
+    titleEn: "Sunday Divine Liturgy 10 AM — July 19",
+    titleRu: "Воскресная Литургия 10:00 — 19 июля",
+  },
+  {
     id: "fLMI-9BarpU",
     titleEn: "Vigil 5 PM — July 18",
     titleRu: "Всенощное Бдение 17:00 — 18 июля",
@@ -12,11 +17,6 @@ const ARCHIVE_VIDEOS = [
     id: "kKJ0vPJAv0U",
     titleEn: "Akathist 7 PM — July 14",
     titleRu: "Акафист 19:00 — 14 июля",
-  },
-  {
-    id: "w6U8hBrU2d0",
-    titleEn: "Sunday Divine Liturgy 10 AM — July 12",
-    titleRu: "Воскресная Литургия 10:00 — 12 июля",
   },
 ];
 
