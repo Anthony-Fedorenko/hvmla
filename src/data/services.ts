@@ -6,9 +6,9 @@ export interface TimeSlot {
 
 export interface ServiceDay {
   id: string;
-  /** Short date label, e.g. "July 4" */
+  /** Short date label, e.g. "August 1" */
   date: string;
-  /** ISO date string for filtering, e.g. "2026-07-04" */
+  /** ISO date string for filtering, e.g. "2026-08-01" */
   dateISO: string;
   dayOfWeekEn: string;
   dayOfWeekRu: string;
@@ -18,12 +18,12 @@ export interface ServiceDay {
   isNotice?: boolean;
 }
 
-/** July 2026 service calendar */
+/** August 2026 service calendar */
 export const upcomingServices: ServiceDay[] = [
   {
-    id: "jul4",
-    date: "July 4",
-    dateISO: "2026-07-04",
+    id: "aug1",
+    date: "August 1",
+    dateISO: "2026-08-01",
     dayOfWeekEn: "Saturday",
     dayOfWeekRu: "Суббота",
     icon: "✦",
@@ -32,79 +32,55 @@ export const upcomingServices: ServiceDay[] = [
     ],
   },
   {
-    id: "jul5",
-    date: "July 5",
-    dateISO: "2026-07-05",
+    id: "aug2",
+    date: "August 2",
+    dateISO: "2026-08-02",
     dayOfWeekEn: "Sunday",
     dayOfWeekRu: "Воскресенье",
     icon: "☩",
     slots: [
       { time: "9:30 AM", titleEn: "Confession", titleRu: "Исповедь" },
-      { time: "10:00 AM", titleEn: "Divine Liturgy — 5th Sunday after Pentecost", titleRu: "Литургия — Неделя 5-я по Пятидесятнице" },
+      { time: "10:00 AM", titleEn: "Divine Liturgy — Glorious Prophet Elijah", titleRu: "Литургия — Славного Пророка Илии" },
     ],
   },
   {
-    id: "retreat",
-    date: "July 6–8",
-    dateISO: "2026-07-06",
-    dayOfWeekEn: "Monday–Wednesday",
-    dayOfWeekRu: "Понедельник–Среда",
-    icon: "ℹ",
-    isNotice: true,
-    slots: [
-      {
-        time: "",
-        titleEn: "Clergy Attending Deanery Retreat in Carlsbad",
-        titleRu: "Съезд духовенства благочиния в Карлсбаде",
-      },
-    ],
-  },
-  {
-    id: "jul11",
-    date: "July 11",
-    dateISO: "2026-07-11",
-    dayOfWeekEn: "Saturday",
-    dayOfWeekRu: "Суббота",
-    icon: "✦",
-    slots: [
-      { time: "5:00 PM", titleEn: "Vigil (Confession)", titleRu: "Всенощная (исповедь)" },
-    ],
-  },
-  {
-    id: "jul12",
-    date: "July 12",
-    dateISO: "2026-07-12",
-    dayOfWeekEn: "Sunday",
-    dayOfWeekRu: "Воскресенье",
-    icon: "☩",
-    slots: [
-      { time: "9:30 AM", titleEn: "Confession", titleRu: "Исповедь" },
-      {
-        time: "10:00 AM",
-        titleEn: "Divine Liturgy — The Glorious and All-Praised Apostles Peter & Paul",
-        titleRu: "Литургия — Славных и Всехвальных Первоверховных Апостолов Петра и Павла",
-      },
-    ],
-  },
-  {
-    id: "jul14",
-    date: "July 14",
-    dateISO: "2026-07-14",
+    id: "aug4",
+    date: "August 4",
+    dateISO: "2026-08-04",
     dayOfWeekEn: "Tuesday",
     dayOfWeekRu: "Вторник",
     icon: "✦",
     slots: [
-      {
-        time: "7:00 PM",
-        titleEn: 'Akathist before the icon of Our Most Holy Lady Theotokos "Rescuer of the Perishing"',
-        titleRu: "Акафист пред иконой Пресвятой Богородицы «Взыскание погибших»",
-      },
+      { time: "7:00 PM", titleEn: "Akathist before the icon of Our Most Holy Lady Theotokos of Pochaiv", titleRu: "Акафист пред иконой Пресвятой Богородицы «Почаевская»" },
     ],
   },
   {
-    id: "jul18",
-    date: "July 18",
-    dateISO: "2026-07-18",
+    id: "aug5",
+    date: "August 5",
+    dateISO: "2026-08-05",
+    dayOfWeekEn: "Wednesday",
+    dayOfWeekRu: "Среда",
+    icon: "✦",
+    slots: [
+      { time: "7:00 PM", titleEn: "Vespers (Confession)", titleRu: "Вечерня (исповедь)" },
+    ],
+  },
+  {
+    id: "aug6",
+    date: "August 6",
+    dateISO: "2026-08-06",
+    dayOfWeekEn: "Thursday",
+    dayOfWeekRu: "Четверг",
+    icon: "☩",
+    slots: [
+      { time: "9:30 AM", titleEn: "Confession", titleRu: "Исповедь" },
+      { time: "10:00 AM", titleEn: "Divine Liturgy — Transfiguration of Our Lord (N.C.) — Belltower Church of St. Herman — Blessing of Fruits", titleRu: "Литургия — Преображение Господне (Н.СТ.) — храм Прп. Германа — Освящение плодов" },
+    ],
+  },
+  {
+    id: "aug8",
+    date: "August 8",
+    dateISO: "2026-08-08",
     dayOfWeekEn: "Saturday",
     dayOfWeekRu: "Суббота",
     icon: "✦",
@@ -113,67 +89,158 @@ export const upcomingServices: ServiceDay[] = [
     ],
   },
   {
-    id: "jul19",
-    date: "July 19",
-    dateISO: "2026-07-19",
+    id: "aug9",
+    date: "August 9",
+    dateISO: "2026-08-09",
     dayOfWeekEn: "Sunday",
     dayOfWeekRu: "Воскресенье",
     icon: "☩",
     slots: [
       { time: "9:30 AM", titleEn: "Confession", titleRu: "Исповедь" },
-      {
-        time: "10:00 AM",
-        titleEn: "Divine Liturgy — Fathers of the First Six Ecumenical Councils",
-        titleRu: "Литургия — Память Святых Отцев Шести Вселенских Соборов",
-      },
+      { time: "10:00 AM", titleEn: "Divine Liturgy — Glorification of Venerable Herman of Alaska, Wonderworker of All America", titleRu: "Литургия — Прославление Прп. Германа Аляскинского, Всея Америки Чудотворца" },
     ],
   },
   {
-    id: "jul21",
-    date: "July 21",
-    dateISO: "2026-07-21",
+    id: "aug11",
+    date: "August 11",
+    dateISO: "2026-08-11",
     dayOfWeekEn: "Tuesday",
     dayOfWeekRu: "Вторник",
     icon: "✦",
     slots: [
-      {
-        time: "7:00 PM",
-        titleEn: 'Akathist before the icon of Our Most Holy Lady Theotokos "Rescuer of the Perishing"',
-        titleRu: "Акафист пред иконой Пресвятой Богородицы «Взыскание погибших»",
-      },
+      { time: "7:00 PM", titleEn: 'Akathist before the icon of Our Most Holy Lady Theotokos "Rescuer of the Perishing"', titleRu: "Акафист пред иконой Пресвятой Богородицы «Взыскание погибших»" },
     ],
   },
   {
-    id: "jul23",
-    date: "July 23",
-    dateISO: "2026-07-23",
+    id: "aug14",
+    date: "August 14",
+    dateISO: "2026-08-14",
+    dayOfWeekEn: "Friday",
+    dayOfWeekRu: "Пятница",
+    icon: "✦",
+    slots: [
+      { time: "7:00 PM", titleEn: "Vespers (Confession)", titleRu: "Вечерня (исповедь)" },
+    ],
+  },
+  {
+    id: "aug15",
+    date: "August 15",
+    dateISO: "2026-08-15",
+    dayOfWeekEn: "Saturday",
+    dayOfWeekRu: "Суббота",
+    icon: "☩",
+    slots: [
+      { time: "9:30 AM", titleEn: "Confession", titleRu: "Исповедь" },
+      { time: "10:00 AM", titleEn: "Divine Liturgy — Dormition of the Mother of God (N.C.) — Belltower Church of St. Herman — Blessing of Flowers & Herbs", titleRu: "Литургия — Успение Пресвятой Богородицы (Н.СТ.) — храм Прп. Германа — Освящение цветов и трав" },
+    ],
+  },
+  {
+    id: "aug15-eve",
+    date: "August 15",
+    dateISO: "2026-08-15",
+    dayOfWeekEn: "Saturday",
+    dayOfWeekRu: "Суббота",
+    icon: "✦",
+    slots: [
+      { time: "5:00 PM", titleEn: "Vigil (Confession)", titleRu: "Всенощная (исповедь)" },
+    ],
+  },
+  {
+    id: "aug16",
+    date: "August 16",
+    dateISO: "2026-08-16",
+    dayOfWeekEn: "Sunday",
+    dayOfWeekRu: "Воскресенье",
+    icon: "☩",
+    slots: [
+      { time: "9:30 AM", titleEn: "Confession", titleRu: "Исповедь" },
+      { time: "10:00 AM", titleEn: 'Divine Liturgy — The Image of Our Lord Jesus Christ "Not-Made-by-Hands"', titleRu: "Литургия — Нерукотворного Образа Господа нашего Иисуса Христа" },
+    ],
+  },
+  {
+    id: "aug18",
+    date: "August 18",
+    dateISO: "2026-08-18",
+    dayOfWeekEn: "Tuesday",
+    dayOfWeekRu: "Вторник",
+    icon: "✦",
+    slots: [
+      { time: "7:00 PM", titleEn: "Vigil (Confession)", titleRu: "Всенощная (исповедь)" },
+    ],
+  },
+  {
+    id: "aug19",
+    date: "August 19",
+    dateISO: "2026-08-19",
+    dayOfWeekEn: "Wednesday",
+    dayOfWeekRu: "Среда",
+    icon: "☩",
+    slots: [
+      { time: "9:30 AM", titleEn: "Confession", titleRu: "Исповедь" },
+      { time: "10:00 AM", titleEn: "Divine Liturgy — Transfiguration of Our Lord (O.C.) — Blessing of Fruits", titleRu: "Литургия — Преображение Господне (СТ.СТ.) — Освящение плодов" },
+    ],
+  },
+  {
+    id: "aug22",
+    date: "August 22",
+    dateISO: "2026-08-22",
+    dayOfWeekEn: "Saturday",
+    dayOfWeekRu: "Суббота",
+    icon: "✦",
+    slots: [
+      { time: "5:00 PM", titleEn: "Vigil (Confession)", titleRu: "Всенощная (исповедь)" },
+    ],
+  },
+  {
+    id: "aug23",
+    date: "August 23",
+    dateISO: "2026-08-23",
+    dayOfWeekEn: "Sunday",
+    dayOfWeekRu: "Воскресенье",
+    icon: "☩",
+    slots: [
+      { time: "9:30 AM", titleEn: "Confession", titleRu: "Исповедь" },
+      { time: "10:00 AM", titleEn: "Divine Liturgy — 12th Sunday after Pentecost", titleRu: "Литургия — Неделя 12-я по Пятидесятнице" },
+    ],
+  },
+  {
+    id: "aug25",
+    date: "August 25",
+    dateISO: "2026-08-25",
+    dayOfWeekEn: "Tuesday",
+    dayOfWeekRu: "Вторник",
+    icon: "✦",
+    slots: [
+      { time: "7:00 PM", titleEn: 'Akathist before the icon of Our Most Holy Lady Theotokos "Rescuer of the Perishing"', titleRu: "Акафист пред иконой Пресвятой Богородицы «Взыскание погибших»" },
+    ],
+  },
+  {
+    id: "aug27",
+    date: "August 27",
+    dateISO: "2026-08-27",
     dayOfWeekEn: "Thursday",
     dayOfWeekRu: "Четверг",
     icon: "✦",
     slots: [
-      {
-        time: "7:00 PM",
-        titleEn: "Vespers (Confession) — Equal-to-the-Apostles Great Princess Olga",
-        titleRu: "Вечерня (исповедь) — Равноапостольной Великой Княгини Ольги",
-      },
+      { time: "7:00 PM", titleEn: "Vigil (Confession)", titleRu: "Всенощная (исповедь)" },
     ],
   },
   {
-    id: "jul24",
-    date: "July 24",
-    dateISO: "2026-07-24",
+    id: "aug28",
+    date: "August 28",
+    dateISO: "2026-08-28",
     dayOfWeekEn: "Friday",
     dayOfWeekRu: "Пятница",
     icon: "☩",
     slots: [
-      { time: "9:30 AM", titleEn: "Confession — Belltower Church of St. Herman", titleRu: "Исповедь — храм Прп. Германа" },
-      { time: "10:00 AM", titleEn: "Divine Liturgy — Belltower Church of St. Herman", titleRu: "Литургия — храм Прп. Германа" },
+      { time: "9:30 AM", titleEn: "Confession", titleRu: "Исповедь" },
+      { time: "10:00 AM", titleEn: "Divine Liturgy — Dormition of the Mother of God (O.C.) — Blessing of Flowers & Herbs", titleRu: "Литургия — Успение Пресвятой Богородицы (СТ.СТ.) — Освящение цветов и трав" },
     ],
   },
   {
-    id: "jul25",
-    date: "July 25",
-    dateISO: "2026-07-25",
+    id: "aug29",
+    date: "August 29",
+    dateISO: "2026-08-29",
     dayOfWeekEn: "Saturday",
     dayOfWeekRu: "Суббота",
     icon: "✦",
@@ -182,61 +249,15 @@ export const upcomingServices: ServiceDay[] = [
     ],
   },
   {
-    id: "jul26",
-    date: "July 26",
-    dateISO: "2026-07-26",
+    id: "aug30",
+    date: "August 30",
+    dateISO: "2026-08-30",
     dayOfWeekEn: "Sunday",
     dayOfWeekRu: "Воскресенье",
     icon: "☩",
     slots: [
       { time: "9:30 AM", titleEn: "Confession", titleRu: "Исповедь" },
-      {
-        time: "10:00 AM",
-        titleEn: "Divine Liturgy — Righteous Jacob of Alaska",
-        titleRu: "Литургия — Праведного Иакова Аляскинского",
-      },
-    ],
-  },
-  {
-    id: "jul27",
-    date: "July 27",
-    dateISO: "2026-07-27",
-    dayOfWeekEn: "Monday",
-    dayOfWeekRu: "Понедельник",
-    icon: "✦",
-    slots: [
-      {
-        time: "7:00 PM",
-        titleEn: "Vespers (Confession) — Equal-to-the-Apostles Great Prince Vladimir — Belltower Church of St. Herman",
-        titleRu: "Вечерня (исповедь) — Равноапостольного Великого Князя Владимира — храм Прп. Германа",
-      },
-    ],
-  },
-  {
-    id: "jul28",
-    date: "July 28",
-    dateISO: "2026-07-28",
-    dayOfWeekEn: "Tuesday",
-    dayOfWeekRu: "Вторник",
-    icon: "☩",
-    slots: [
-      { time: "9:30 AM", titleEn: "Confession — Belltower Church of St. Herman", titleRu: "Исповедь — храм Прп. Германа" },
-      { time: "10:00 AM", titleEn: "Divine Liturgy — Belltower Church of St. Herman", titleRu: "Литургия — храм Прп. Германа" },
-    ],
-  },
-  {
-    id: "jul28-eve",
-    date: "July 28",
-    dateISO: "2026-07-28",
-    dayOfWeekEn: "Tuesday",
-    dayOfWeekRu: "Вторник",
-    icon: "✦",
-    slots: [
-      {
-        time: "7:00 PM",
-        titleEn: 'Akathist before the icon of Our Most Holy Lady Theotokos "Rescuer of the Perishing"',
-        titleRu: "Акафист пред иконой Пресвятой Богородицы «Взыскание погибших»",
-      },
+      { time: "10:00 AM", titleEn: "Divine Liturgy — Righteous Prince Alexander Nevsky", titleRu: "Литургия — Благоверного Князя Александра Невского" },
     ],
   },
 ];
