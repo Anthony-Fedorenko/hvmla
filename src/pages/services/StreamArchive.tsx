@@ -4,19 +4,24 @@ import YouTubeEmbed from "../../components/YouTubeEmbed";
 
 const ARCHIVE_VIDEOS = [
   {
-    id: "kdI4MjLhQvA",
-    titleEn: "Sunday Divine Liturgy 10 AM — July 19",
-    titleRu: "Воскресная Литургия 10:00 — 19 июля",
+    id: "LdCkHIR6UyE",
+    titleEn: "Sunday Divine Liturgy 10 AM — August 9",
+    titleRu: "Воскресная Литургия 10:00 — 9 августа",
   },
   {
-    id: "fLMI-9BarpU",
-    titleEn: "Vigil 5 PM — July 18",
-    titleRu: "Всенощное Бдение 17:00 — 18 июля",
+    id: "pjiMT22zefw",
+    titleEn: "Vigil 5 PM — August 8",
+    titleRu: "Всенощное Бдение 17:00 — 8 августа",
   },
   {
-    id: "kKJ0vPJAv0U",
-    titleEn: "Akathist 7 PM — July 14",
-    titleRu: "Акафист 19:00 — 14 июля",
+    id: "NAlaFBbXeZQ",
+    titleEn: "Divine Liturgy 10 AM — August 6",
+    titleRu: "Литургия 10:00 — 6 августа",
+  },
+  {
+    id: "spq6j_520k0",
+    titleEn: "Vespers 7 PM — August 5",
+    titleRu: "Вечерня 19:00 — 5 августа",
   },
 ];
 

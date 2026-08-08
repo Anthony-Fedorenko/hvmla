@@ -3,6 +3,11 @@ import { useTranslation } from "react-i18next";
 
 const BULLETINS = [
   {
+    dateEn: "August 2026",
+    dateRu: "Август 2026",
+    file: "/bulletin_august_2026.pdf",
+  },
+  {
     dateEn: "June – July 2026",
     dateRu: "Июнь – Июль 2026",
     file: "/bulletin_june_july_2026.pdf",

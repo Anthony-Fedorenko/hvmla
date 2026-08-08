@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import YouTubeEmbed from "../../components/YouTubeEmbed";
 
 // Replace with the actual channel's live stream video ID when available
-const LIVE_VIDEO_ID = "MIZeTGhzFxc";
+const LIVE_VIDEO_ID = "LdCkHIR6UyE";
 
 export default function LiveStreams() {
   const { t } = useTranslation();

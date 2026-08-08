@@ -31,6 +31,9 @@ export default function Hero() {
             <Link to="/services/schedule" className="btn btn--outline">
               {t("nav.schedule")}
             </Link>
+            <Link to="/ministries/inquirers" className="btn btn--outline">
+              {t("nav.inquirers")}
+            </Link>
             <a
               href={PAYPAL_DONATE_URL}
               target="_blank"
