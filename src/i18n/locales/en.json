@@ -42,6 +42,7 @@
     "contactForm": "Contact Form",
     "bylaws": "Bylaws",
     "gallery": "Photo Gallery",
+    "icons": "Icons & Murals",
     "donate": "Donate"
   },
   "home": {
@@ -85,7 +86,15 @@
     "reader": "Reader",
     "administrator": "Parish Administrator",
     "secretary": "Parish Secretary",
-    "choirDirector": "Choir Director"
+    "choirDirector": "Choir Director",
+    "iconsTitle": "Icons & Murals",
+    "iconsSubtitle": "A guide to the icons and wall paintings of our cathedral, originally prepared for the parish's centennial guidebook.",
+    "iconsIntro": "Scan a QR code posted near an icon or mural, or browse the full guide below.",
+    "iconsLangNote": "These descriptions are preserved from the original guidebook and are available in English only.",
+    "iconsBack": "Back to all icons",
+    "iconsNotFoundTitle": "Icon Not Found",
+    "iconsNotFoundText": "We couldn't find a guide entry for this QR code. It may have been renumbered — please browse the full list below.",
+    "iconsSource": "Source"
   },
   "ministries": {
     "xeniaTitlePage": "St. Ksenia Society",
@@ -321,5 +330,10 @@
     "viewAll": "View All",
     "contact": "Contact",
     "joinUs": "Join Us"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "message": "The page you're looking for doesn't exist or may have moved.",
+    "cta": "Go to Homepage"
   }
 }

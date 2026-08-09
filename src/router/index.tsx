@@ -1,3 +1,4 @@
+import { lazy, Suspense } from "react";
 import { createBrowserRouter } from "react-router-dom";
 import Layout from "../layout/Layout";
 import Home from "../pages/Home";
@@ -7,6 +8,10 @@ import History from "../pages/about/History";
 import Clergy from "../pages/about/Clergy";
 import Bylaws from "../pages/about/Bylaws";
 import Gallery from "../pages/about/Gallery";
+
+// Icons & murals (lazy: large data file, only needed via QR codes or direct visits)
+const Icons = lazy(() => import("../pages/about/Icons"));
+const IconDetail = lazy(() => import("../pages/about/IconDetail"));
 
 // Ministries
 import StXenia from "../pages/ministries/StXenia";
@@ -48,6 +53,9 @@ import AddressMap from "../pages/contact/AddressMap";
 import SocialMedia from "../pages/contact/SocialMedia";
 import ContactForm from "../pages/contact/ContactForm";
 
+// Not found
+import NotFound from "../pages/NotFound";
+
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -59,6 +67,14 @@ export const router = createBrowserRouter([
       { path: "about/clergy", element: <Clergy /> },
       { path: "about/bylaws", element: <Bylaws /> },
       { path: "about/gallery", element: <Gallery /> },
+      {
+        path: "about/icons",
+        element: (
+          <Suspense fallback={null}>
+            <Icons />
+          </Suspense>
+        ),
+      },
 
       { path: "ministries/st-xenia", element: <StXenia /> },
       { path: "ministries/choir", element: <Choir /> },
@@ -91,6 +107,18 @@ export const router = createBrowserRouter([
       { path: "contact/map", element: <AddressMap /> },
       { path: "contact/social", element: <SocialMedia /> },
       { path: "contact/form", element: <ContactForm /> },
+
+      // Legacy QR-code links from the centennial guidebook (e.g. /003-seraphim)
+      {
+        path: ":legacyId",
+        element: (
+          <Suspense fallback={null}>
+            <IconDetail />
+          </Suspense>
+        ),
+      },
+
+      { path: "*", element: <NotFound /> },
     ],
   },
 ]);
