@@ -10,6 +10,10 @@ interface Album {
   photos: string[];
 }
 
+function toThumb(src: string): string {
+  return src.replace(/(\.[a-z]+)$/i, "_thumb$1");
+}
+
 const ALBUMS: Album[] = [
   {
     id: "bishop-vasily-visit-2025",
@@ -105,7 +109,7 @@ export default function Gallery() {
                     aria-label={`Photo ${idx + 1}`}
                   >
                     <img
-                      src={src}
+                      src={toThumb(src)}
                       alt=""
                       loading="lazy"
                       style={{

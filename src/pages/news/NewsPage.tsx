@@ -3,6 +3,10 @@ import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { newsItems } from "../../data/news";
 
+function toThumb(src: string): string {
+  return src.replace(/(\.[a-z]+)$/i, "_thumb$1");
+}
+
 export default function NewsPage() {
   const { t, i18n } = useTranslation();
   const lang = i18n.language === "ru" ? "ru" : "en";
@@ -108,7 +112,7 @@ export default function NewsPage() {
                           aria-label={`Photo ${idx + 1}`}
                         >
                           <img
-                            src={src}
+                            src={toThumb(src)}
                             alt=""
                             loading="lazy"
                             style={{

@@ -17,6 +17,16 @@ export default function ServiceSchedule() {
         <div className="container">
           <h1>{t("services.scheduleTitle")}</h1>
           <p>{t("services.scheduleSubtitle")}</p>
+          <a
+            href="/calendar_august.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            download
+            className="btn btn--primary"
+            style={{ marginTop: "var(--space-md)" }}
+          >
+            {t("services.downloadCalendar")}
+          </a>
         </div>
       </div>
 

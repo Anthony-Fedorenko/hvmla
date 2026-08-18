@@ -39,7 +39,6 @@ const NAV_ITEMS = [
       },
       { key: "choir", label: "nav.choir", to: "/ministries/choir" },
       { key: "catechism", label: "nav.catechism", to: "/ministries/catechism" },
-      { key: "inquirers", label: "nav.inquirers", to: "/ministries/inquirers" },
       {
         key: "sundaySchool",
         label: "nav.sundaySchool",

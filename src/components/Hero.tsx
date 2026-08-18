@@ -31,7 +31,7 @@ export default function Hero() {
             <Link to="/services/schedule" className="btn btn--outline">
               {t("nav.schedule")}
             </Link>
-            <Link to="/ministries/inquirers" className="btn btn--outline">
+            <Link to="/ministries/catechism" className="btn btn--outline">
               {t("nav.inquirers")}
             </Link>
             <a

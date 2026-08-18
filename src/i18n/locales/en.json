@@ -7,7 +7,7 @@
     "ministries": "Ministries",
     "stXenia": "St. Ksenia Society",
     "choir": "Choir",
-    "catechism": "Catechism School",
+    "catechism": "Catechism",
     "inquirers": "For Inquirers",
     "sisterhood": "Sisterhood",
     "stBarbara": "St. Barbara Sisterhood",
@@ -118,12 +118,8 @@
     "joinChoir": "Interested in Joining?",
     "joinChoirText": "Those interested in singing and joining the choir should speak with Deacon Serge following any service. With the blessing of the rector, all new singers will take an informal audition to assess their musical abilities and voice placement.",
 
-    "catTitle": "Catechism School",
-    "catDesc": "The Catechism School offers systematic instruction in the Orthodox Christian faith for adults and older youth. Whether you are preparing for reception into the Church, deepening your knowledge, or exploring Orthodoxy for the first time, you are welcome here.",
-    "catScheduleTitle": "Class Schedule",
-    "catScheduleText": "Classes are held on Tuesday evenings, after the Akathist.",
-    "catContactTitle": "Contact & Enrollment",
-    "catContactText": "To enroll or for more information, please contact the parish office or speak with the rector after services.",
+    "catTitle": "Catechism",
+    "catDesc": "Our Catechism offers systematic instruction in the Orthodox Christian faith for adults and older youth. Whether you are preparing for reception into the Church, deepening your knowledge, or exploring Orthodoxy for the first time, you are welcome here.",
 
     "sisterTitle": "Sisterhood of the Cathedral",
     "sisterDesc": "The Sisterhood of Holy Virgin Mary Russian Orthodox Cathedral takes care of the decoration of the Church, the vestments and the furnishing of the parish buildings and garden, and finances charitable works by collecting funds, sponsoring luncheons and other enterprises.",
@@ -151,6 +147,7 @@
   "services": {
     "scheduleTitle": "Service Schedule",
     "scheduleSubtitle": "All are welcome to join us in worship",
+    "downloadCalendar": "Download Calendar (PDF)",
     "sundayLiturgy": "Sunday Divine Liturgy",
     "sundayTime": "10:00 AM every Sunday",
     "saturdayVespers": "Saturday Vigil",
