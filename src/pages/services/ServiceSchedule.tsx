@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { upcomingServices } from "../../data/services";
+import styles from "./ServiceSchedule.module.css";
 
 export default function ServiceSchedule() {
   const { t, i18n } = useTranslation();
@@ -17,16 +18,25 @@ export default function ServiceSchedule() {
         <div className="container">
           <h1>{t("services.scheduleTitle")}</h1>
           <p>{t("services.scheduleSubtitle")}</p>
-          <a
-            href="/calendar_august.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            download
-            className="btn btn--primary"
-            style={{ marginTop: "var(--space-md)" }}
-          >
-            {t("services.downloadCalendar")}
-          </a>
+          <div className="btn-group" style={{ marginTop: "var(--space-md)" }}>
+            <a
+              href="/calendar_august.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              download
+              className="btn btn--primary"
+            >
+              {t("services.downloadCalendar")}
+            </a>
+            <a
+              href="https://calendar.google.com/calendar/u/0?cid=Y182NTcxZDdiZDg0N2I5MDRhYjM1MjgzOWJhNTFkZjcwYjE3MzIxYjZiMmMwNTZkN2NlZmYxZDdhNWFjNTJiYTRmQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn--outline"
+            >
+              {t("services.googleCalendar")}
+            </a>
+          </div>
         </div>
       </div>
 
@@ -84,7 +94,7 @@ export default function ServiceSchedule() {
                   >
                     {day.icon}
                   </span>
-                  <div style={{ flex: 1 }}>
+                  <div style={{ flex: 1, minWidth: 0 }}>
                     <p
                       style={{
                         margin: "0 0 0.25rem",
@@ -99,26 +109,9 @@ export default function ServiceSchedule() {
                       {day.date}
                     </p>
                     {day.slots.map((slot) => (
-                      <div
-                        key={slot.time}
-                        style={{
-                          display: "flex",
-                          gap: "var(--space-md)",
-                          alignItems: "baseline",
-                          marginBottom: "0.3rem",
-                        }}
-                      >
-                        <span
-                          style={{
-                            minWidth: "90px",
-                            fontSize: "0.9rem",
-                            fontWeight: 600,
-                            flexShrink: 0,
-                          }}
-                        >
-                          {slot.time}
-                        </span>
-                        <span style={{ fontSize: "0.95rem" }}>
+                      <div key={slot.time} className={styles.slotRow}>
+                        <span className={styles.slotTime}>{slot.time}</span>
+                        <span className={styles.slotTitle}>
                           {lang === "ru" ? slot.titleRu : slot.titleEn}
                         </span>
                       </div>

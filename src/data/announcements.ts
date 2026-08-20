@@ -5,9 +5,28 @@ export interface Announcement {
   titleRu: string;
   bodyEn: string;
   bodyRu: string;
+  image?: string;
 }
 
 export const announcements: Announcement[] = [
+  {
+    id: "a3",
+    date: "August 19, 2026",
+    titleEn: "Sunday School Registration — 2026–2027 Academic Year",
+    titleRu: "Регистрация в Воскресную школу — 2026–2027 учебный год",
+    bodyEn: "Registration for the new Sunday School year begins September 13, with classes meeting Sundays from 12:00 PM to 3:40 PM for children ages 4–16. See the flyer below for the full program and registration details.",
+    bodyRu: "Регистрация на новый учебный год в Воскресной школе начинается 13 сентября, занятия проходят по воскресеньям с 12:00 до 15:40 для детей от 4 до 16 лет. Полная программа и информация о регистрации — на плакате ниже.",
+    image: "/announcements.jpg",
+  },
+  {
+    id: "a4",
+    date: "August 19, 2026",
+    titleEn: "Sunday School Scholarships Available",
+    titleRu: "Стипендии на обучение в Воскресной школе",
+    bodyEn: "Some of our Sunday School families are unable to cover the full cost of tuition this year. If you are able to sponsor a child's tuition, please speak with Fr. Volodymyr.",
+    bodyRu: "Некоторые семьи наших учеников Воскресной школы не могут полностью оплатить обучение в этом году. Если у вас есть возможность оплатить стипендию ребёнку, пожалуйста, обратитесь к о. Владимиру.",
+    image: "/announcements_1.jpg",
+  },
   {
     id: "a1",
     date: "July 20, 2026",

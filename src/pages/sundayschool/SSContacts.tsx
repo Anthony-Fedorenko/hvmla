@@ -23,13 +23,7 @@ export default function SSContacts() {
             <p style={{ marginBottom: "var(--space-lg)" }}>
               {t("sundaySchool.contactText")}
             </p>
-            <div
-              style={{
-                display: "flex",
-                gap: "var(--space-sm)",
-                flexWrap: "wrap",
-              }}
-            >
+            <div className="btn-group">
               <Link to="/contact/form" className="btn btn--primary">
                 {t("common.contact")}
               </Link>

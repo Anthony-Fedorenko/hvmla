@@ -1,0 +1,30 @@
+.slotRow {
+  display: flex;
+  gap: var(--space-md);
+  align-items: baseline;
+  margin-bottom: 0.3rem;
+}
+
+.slotTime {
+  min-width: 90px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.slotTitle {
+  font-size: 0.95rem;
+  flex: 1;
+  min-width: 0;
+}
+
+@media (max-width: 400px) {
+  .slotRow {
+    flex-direction: column;
+    gap: 0.1rem;
+  }
+
+  .slotTime {
+    min-width: 0;
+  }
+}

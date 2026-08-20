@@ -54,14 +54,7 @@ export default function Choir() {
             {t("ministries.joinChoir")}
           </h2>
           <p>{t("ministries.joinChoirText")}</p>
-          <div
-            style={{
-              display: "flex",
-              gap: "var(--space-sm)",
-              marginTop: "var(--space-lg)",
-              flexWrap: "wrap",
-            }}
-          >
+          <div className="btn-group" style={{ marginTop: "var(--space-lg)" }}>
             <Link to="/support/donations" className="btn btn--primary">
               {t("ministries.donateButton")}
             </Link>

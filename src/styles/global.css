@@ -226,3 +226,15 @@ button {
     grid-template-columns: 1fr;
   }
 }
+
+.btn-group {
+  display: flex;
+  gap: var(--space-md);
+  flex-wrap: wrap;
+}
+
+@media (max-width: 480px) {
+  .btn-group .btn {
+    width: 100%;
+  }
+}

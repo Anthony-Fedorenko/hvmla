@@ -1,10 +1,11 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { announcements } from "../../data/announcements";
 
 export default function Announcements() {
   const { t, i18n } = useTranslation();
   const lang = i18n.language === "ru" ? "ru" : "en";
+  const [lightboxSrc, setLightboxSrc] = useState<string | null>(null);
 
   useEffect(() => {
     document.title = `${t("news.announcementsTitle")} | Holy Virgin Mary Russian Orthodox Cathedral`;
@@ -65,14 +66,89 @@ export default function Announcements() {
                 >
                   {lang === "ru" ? a.titleRu : a.titleEn}
                 </h2>
-                <p style={{ margin: 0 }}>
+                <p style={{ margin: a.image ? "0 0 var(--space-md)" : 0 }}>
                   {lang === "ru" ? a.bodyRu : a.bodyEn}
                 </p>
+                {a.image && (
+                  <button
+                    onClick={() => setLightboxSrc(a.image!)}
+                    style={{
+                      padding: 0,
+                      border: "none",
+                      background: "none",
+                      cursor: "pointer",
+                      borderRadius: "4px",
+                      overflow: "hidden",
+                      display: "block",
+                      maxWidth: "320px",
+                    }}
+                    aria-label="View flyer"
+                  >
+                    <img
+                      src={a.image}
+                      alt=""
+                      loading="lazy"
+                      style={{
+                        width: "100%",
+                        display: "block",
+                        border: "1px solid var(--color-border)",
+                        boxShadow: "var(--shadow-sm)",
+                      }}
+                    />
+                  </button>
+                )}
               </article>
             ))}
           </div>
         </div>
       </div>
+
+      {lightboxSrc && (
+        <div
+          role="dialog"
+          aria-modal="true"
+          onClick={() => setLightboxSrc(null)}
+          style={{
+            position: "fixed",
+            inset: 0,
+            background: "rgba(0,0,0,0.92)",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            zIndex: 1000,
+          }}
+        >
+          <button
+            onClick={() => setLightboxSrc(null)}
+            aria-label="Close"
+            style={{
+              position: "absolute",
+              top: "1rem",
+              right: "1.25rem",
+              background: "none",
+              border: "none",
+              color: "#fff",
+              fontSize: "2rem",
+              cursor: "pointer",
+              lineHeight: 1,
+            }}
+          >
+            ×
+          </button>
+          <img
+            src={lightboxSrc}
+            alt=""
+            onClick={(e) => e.stopPropagation()}
+            style={{
+              maxWidth: "min(90vw, 700px)",
+              maxHeight: "88vh",
+              objectFit: "contain",
+              borderRadius: "4px",
+              boxShadow: "0 8px 40px rgba(0,0,0,0.6)",
+            }}
+          />
+        </div>
+      )}
     </>
   );
 }

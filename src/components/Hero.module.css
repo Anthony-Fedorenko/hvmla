@@ -106,3 +106,9 @@
   margin-bottom: var(--space-lg);
   opacity: 0.7;
 }
+
+@media (max-width: 480px) {
+  .hero__cta :global(.btn) {
+    width: 100%;
+  }
+}
