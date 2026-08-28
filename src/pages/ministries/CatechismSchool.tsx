@@ -1,9 +1,11 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import styles from "./CatechismSchool.module.css";
 
 export default function CatechismSchool() {
   const { t } = useTranslation();
+  const [lightboxOpen, setLightboxOpen] = useState(false);
 
   useEffect(() => {
     document.title = `${t("ministries.catTitle")} | Holy Virgin Mary Russian Orthodox Cathedral`;
@@ -21,6 +23,24 @@ export default function CatechismSchool() {
       <div className="section">
         <div className="container">
           <div style={{ maxWidth: "780px" }}>
+            <button
+              onClick={() => setLightboxOpen(true)}
+              className={styles.posterBtn}
+              aria-label="View New Catechumen Group flyer"
+            >
+              <img
+                src="/new_catechumen_group.jpg"
+                alt="New Catechumen Group — Starting September 1, 2026"
+                loading="lazy"
+                style={{
+                  width: "100%",
+                  display: "block",
+                  border: "1px solid var(--color-border)",
+                  borderRadius: "4px",
+                  boxShadow: "var(--shadow-md)",
+                }}
+              />
+            </button>
             <p>
               Our class is for anyone who would like to learn more about
               Orthodoxy whether they are already Orthodox, a catechumen or just
@@ -206,6 +226,53 @@ export default function CatechismSchool() {
           </div>
         </div>
       </div>
+
+      {lightboxOpen && (
+        <div
+          role="dialog"
+          aria-modal="true"
+          onClick={() => setLightboxOpen(false)}
+          style={{
+            position: "fixed",
+            inset: 0,
+            background: "rgba(0,0,0,0.92)",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            zIndex: 1000,
+          }}
+        >
+          <button
+            onClick={() => setLightboxOpen(false)}
+            aria-label="Close"
+            style={{
+              position: "absolute",
+              top: "1rem",
+              right: "1.25rem",
+              background: "none",
+              border: "none",
+              color: "#fff",
+              fontSize: "2rem",
+              cursor: "pointer",
+              lineHeight: 1,
+            }}
+          >
+            ×
+          </button>
+          <img
+            src="/new_catechumen_group.jpg"
+            alt=""
+            onClick={(e) => e.stopPropagation()}
+            style={{
+              maxWidth: "min(90vw, 700px)",
+              maxHeight: "88vh",
+              objectFit: "contain",
+              borderRadius: "4px",
+              boxShadow: "0 8px 40px rgba(0,0,0,0.6)",
+            }}
+          />
+        </div>
+      )}
     </>
   );
 }

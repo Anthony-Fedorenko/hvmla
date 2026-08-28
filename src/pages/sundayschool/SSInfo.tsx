@@ -48,6 +48,16 @@ export default function SSInfo() {
           />
           <h1>{t("sundaySchool.infoTitle")}</h1>
           <p>{t("sundaySchool.infoSubtitle")}</p>
+          <a
+            href="/sunday_school_calendar_2026_2027.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            download
+            className="btn btn--primary"
+            style={{ marginTop: "var(--space-md)" }}
+          >
+            {t("sundaySchool.downloadCalendar")}
+          </a>
         </div>
       </div>
 

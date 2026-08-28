@@ -2,6 +2,7 @@ import { useEffect, useState, useCallback } from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { newsItems } from "../../data/news";
+import YouTubeEmbed from "../../components/YouTubeEmbed";
 
 function toThumb(src: string): string {
   return src.replace(/(\.[a-z]+)$/i, "_thumb$1");
@@ -86,6 +87,12 @@ export default function NewsPage() {
                       {para}
                     </p>
                   ))}
+
+                  {item.videoId && (
+                    <div style={{ marginTop: "var(--space-md)" }}>
+                      <YouTubeEmbed videoId={item.videoId} title={title} />
+                    </div>
+                  )}
 
                   {item.photos && item.photos.length > 0 && (
                     <div

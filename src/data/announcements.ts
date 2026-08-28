@@ -10,6 +10,15 @@ export interface Announcement {
 
 export const announcements: Announcement[] = [
   {
+    id: "a5",
+    date: "August 28, 2026",
+    titleEn: "New Catechumen Group — Starting September 1, 2026",
+    titleRu: "Новая группа оглашенных — начало 1 сентября 2026",
+    bodyEn: "A new catechumen lecture series begins Tuesday, September 1. Classes meet every Tuesday at 7:00 PM in the Parish Museum, following the Akathist before the Icon of the Mother of God \"Rescue of the Perishing.\" See the flyer below for course materials and details.",
+    bodyRu: "1 сентября начинается новая лекционная серия для оглашенных. Занятия проходят каждый вторник в 19:00 в Приходском музее, после акафиста перед иконой Божией Матери «Взыскание погибших». Материалы курса и подробности — на плакате ниже.",
+    image: "/new_catechumen_group.jpg",
+  },
+  {
     id: "a3",
     date: "August 19, 2026",
     titleEn: "Sunday School Registration — 2026–2027 Academic Year",

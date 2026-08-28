@@ -8,9 +8,21 @@ export interface NewsItem {
   bodyEn: string;
   bodyRu: string;
   photos?: string[];
+  videoId?: string;
 }
 
 export const newsItems: NewsItem[] = [
+  {
+    id: "n3",
+    date: "August 28, 2026",
+    titleEn: "Is It Ever Okay for Christians to Judge? — Fr. Nazari Polataiko",
+    titleRu: "Позволительно ли христианам осуждать? — отец Назарий Полатайко",
+    summaryEn: "Fr. Nazari Polataiko joins The Ancient Church podcast to discuss the difference between judgment and spiritual discernment.",
+    summaryRu: "Отец Назарий Полатайко принял участие в подкасте The Ancient Church, чтобы обсудить разницу между осуждением и духовным рассуждением.",
+    bodyEn: "In this episode of The Ancient Church, host Polina Leiser speaks with our rector, Archpriest Fr. Nazari Polataiko, about the difference between judgment and spiritual discernment.\n\nThe conversation explores what Christ means when He tells us, \"Judge not, that you be not judged,\" whether we can recognize sinful or harmful behavior without judging the person, and when Christians have a responsibility to correct others. Fr. Nazari also discusses the role of humility in true discernment and how we can respond to judgmental thoughts.\n\nThe episode also includes responses to audience questions about the role of the Mother of God in our salvation and how to forgive someone who has hurt us deeply but has never asked for forgiveness.",
+    bodyRu: "В этом выпуске подкаста The Ancient Church ведущая Полина Лейзер беседует с настоятелем нашего собора, протоиереем Назарием Полатайко, о разнице между осуждением и духовным рассуждением.\n\nРазговор затрагивает то, что имел в виду Христос, говоря «Не судите, да не судимы будете», можно ли распознавать греховное или вредное поведение, не осуждая самого человека, и когда у христиан есть обязанность исправлять других. Отец Назарий также говорит о роли смирения в истинном рассуждении и о том, как реагировать на осуждающие мысли.\n\nВ выпуске также звучат ответы на вопросы зрителей о роли Божией Матери в нашем спасении и о том, как прощать того, кто причинил глубокую боль, но никогда не просил прощения.",
+    videoId: "emXAXmfebLI",
+  },
   {
     id: "n1",
     date: "July 6, 2026",

@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import YouTubeEmbed from "../../components/YouTubeEmbed";
 
 // Replace with the actual channel's live stream video ID when available
-const LIVE_VIDEO_ID = "LdCkHIR6UyE";
+const LIVE_VIDEO_ID = "h4w1eRp3Dko";
 
 export default function LiveStreams() {
   const { t } = useTranslation();
@@ -23,7 +23,7 @@ export default function LiveStreams() {
 
       <div className="section">
         <div className="container">
-          <YouTubeEmbed videoId={LIVE_VIDEO_ID} title="Live Divine Liturgy" />
+          <YouTubeEmbed videoId={LIVE_VIDEO_ID} title="Divine Liturgy — August 28" />
           <p
             style={{
               marginTop: "var(--space-md)",
