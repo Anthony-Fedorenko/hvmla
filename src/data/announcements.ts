@@ -10,6 +10,15 @@ export interface Announcement {
 
 export const announcements: Announcement[] = [
   {
+    id: "a6",
+    date: "September 3, 2026",
+    titleEn: "Annual Slavic Festival — November 1, 2026",
+    titleRu: "Ежегодный Славянский фестиваль — 1 ноября 2026",
+    bodyEn: "Join us for our Annual Slavic Festival on Sunday, November 1, at 12:00 PM, following Divine Liturgy. Enjoy traditional Slavic food, tea and pirozhki, cathedral tours, children's entertainment, handmade crafts, and more. Free admission — see the flyer below for details.",
+    bodyRu: "Приглашаем на ежегодный Славянский фестиваль в воскресенье, 1 ноября, в 12:00, после Божественной Литургии. Традиционная славянская кухня, чай с пирожками, экскурсии по собору, развлечения для детей, изделия ручной работы и многое другое. Вход свободный — подробности на плакате ниже.",
+    image: "/slavic_festival_2026.jpg",
+  },
+  {
     id: "a5",
     date: "August 28, 2026",
     titleEn: "New Catechumen Group — Starting September 1, 2026",
