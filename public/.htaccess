@@ -1,4 +1,13 @@
 Options -MultiViews
+
+# Genuine 404s (missing images/PDFs/assets) get the real prerendered
+# NotFound page. Unknown top-level paths still fall through to index.html
+# below (200) rather than a true 404 status — that's intentional: single
+# segment paths double as legacy QR-code icon links (e.g. /003-seraphim),
+# and only the app itself knows whether a given slug is a real icon.
+ErrorDocument 404 /404.html
+
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^ index.html [QSA,L]

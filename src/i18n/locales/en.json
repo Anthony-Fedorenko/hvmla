@@ -191,7 +191,8 @@
     "t1": "1 student — $150",
     "t2": "2 students (from the same family) — $250",
     "t3": "3 students (from the same family) — $350",
-    "t4": "4 students (from the same family) — $450"
+    "t4": "4 students (from the same family) — $450",
+    "tuitionDisclaimer": "Tuition covers instructional materials and supports the parish's educational ministry. Financial assistance is available for families in need — please speak with the Sunday School director."
   },
   "education": {
     "booksTitle": "Books",

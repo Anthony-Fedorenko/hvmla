@@ -140,6 +140,15 @@ export default function SSInfo() {
                   </div>
                 ))}
               </div>
+              <p
+                style={{
+                  fontSize: "0.85rem",
+                  color: "var(--color-text-secondary)",
+                  marginTop: "var(--space-md)",
+                }}
+              >
+                {t("sundaySchool.tuitionDisclaimer")}
+              </p>
             </div>
           </div>
         </div>
