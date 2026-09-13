@@ -10,4 +10,8 @@ ErrorDocument 404 /404.html
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
+# Only fall back to the app for path-like requests (no file extension).
+# A missing asset (image/PDF/JS/etc.) should 404 for real instead of
+# silently getting served the SPA shell with a 200 status.
+RewriteCond %{REQUEST_URI} !\.[a-zA-Z0-9]+$
 RewriteRule ^ index.html [QSA,L]
