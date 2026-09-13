@@ -102,6 +102,18 @@ async function startStaticServer(fallbackHtml) {
 }
 
 async function main() {
+  // Vercel's build container is missing the shared libraries Puppeteer's
+  // bundled Chromium needs to launch (libnspr4.so and friends), and it
+  // isn't worth chasing — Vercel here is only a dev/staging preview
+  // (see CMS_HOSTING_PLAN.md), not the site Google Ad Grants reviews.
+  // The real prerendered build is the one produced locally / by the
+  // SiteGround deploy pipeline. Skip cleanly so the Vercel build still
+  // succeeds and serves the (un-prerendered) SPA shell as before.
+  if (process.env.VERCEL) {
+    console.log("[prerender] skipping on Vercel (staging preview, not the Ad Grants target site)");
+    return;
+  }
+
   const fallbackHtml = await fs.readFile(path.join(distDir, "index.html"), "utf8");
   const routes = await getRoutes();
 
