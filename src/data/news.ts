@@ -13,6 +13,25 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: "n4",
+    date: "September 29, 2026",
+    titleEn: "The Universal Exaltation of the Precious and Life-Giving Cross",
+    titleRu: "Всемирное Воздвижение Честного и Животворящего Креста Господня",
+    summaryEn: "This past Sunday, our parish family at Holy Virgin Mary Russian Orthodox Cathedral in Los Angeles gathered to celebrate the great Feast of the Exaltation of the Precious and Life-Giving Cross of our Lord.",
+    summaryRu: "В минувшее воскресенье наша приходская семья Свято-Богородицкого Русского православного собора в Лос-Анджелесе собралась, чтобы отпраздновать великий праздник Воздвижения Честного и Животворящего Креста Господня.",
+    bodyEn: "At the center of the church, the Holy Cross was solemnly brought forth for the faithful to venerate, reminding us that the Cross—once an instrument of suffering—has become through Christ the sign of victory, salvation, and eternal life.\n\n\"Before Thy Cross, we fall down in worship, O Master, and Thy holy Resurrection we glorify.\"\n\nWe are grateful to our clergy, choir, altar servers, and all our parishioners and guests who joined us in prayer for this beautiful celebration.\n\nMay the power of the Precious and Life-Giving Cross strengthen us in our struggles, protect our families, and guide us ever closer to Christ.\n\nO Lord, save Thy people and bless Thine inheritance!",
+    bodyRu: "В центре храма для поклонения верующих был торжественно вынесен Святой Крест, напоминая нам о том, что Крест — некогда орудие страдания — стал через Христа знамением победы, спасения и вечной жизни.\n\n«Кресту Твоему поклоняемся, Владыко, и святое Воскресение Твое славим».\n\nМы благодарны нашему духовенству, хору, алтарникам и всем прихожанам и гостям, разделившим с нами молитву в этот прекрасный праздник.\n\nПусть сила Честного и Животворящего Креста укрепляет нас в испытаниях, хранит наши семьи и ведёт нас всё ближе ко Христу.\n\nСпаси, Господи, люди Твоя и благослови достояние Твое!",
+    photos: [
+      "/Cross_exaltation_news.jpg",
+      "/Cross_exaltation_news_2.jpg",
+      "/Cross_exaltation_news_3.jpg",
+      "/Cross_exaltation_news_4.jpg",
+      "/Cross_exaltation_news_5.jpg",
+      "/Cross_exaltation_news_6.jpg",
+      "/Cross_exaltation_news_7.jpg",
+    ],
+  },
+  {
     id: "n3",
     date: "August 28, 2026",
     titleEn: "Is It Ever Okay for Christians to Judge? — Fr. Nazari Polataiko",
