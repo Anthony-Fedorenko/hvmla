@@ -20,7 +20,7 @@ export default function ServiceSchedule() {
           <p>{t("services.scheduleSubtitle")}</p>
           <div className="btn-group" style={{ marginTop: "var(--space-md)" }}>
             <a
-              href="/calendar_september.pdf"
+              href="/calendar_october.pdf"
               target="_blank"
               rel="noopener noreferrer"
               download
