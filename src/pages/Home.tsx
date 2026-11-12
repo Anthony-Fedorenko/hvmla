@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import Hero from "../components/Hero";
 import UpcomingServices from "../components/UpcomingServices";
-import AnnouncementsPreview from "../components/AnnouncementsPreview";
+import NewsAndAnnouncements from "../components/NewsAndAnnouncements";
 import DonationCTA from "../components/DonationCTA";
 import MapEmbed from "../components/MapEmbed";
 import SocialLinks from "../components/SocialLinks";
@@ -18,7 +18,7 @@ export default function Home() {
     <>
       <Hero />
       <UpcomingServices />
-      <AnnouncementsPreview />
+      <NewsAndAnnouncements />
       <DonationCTA />
       <MapEmbed />
       <SocialLinks />

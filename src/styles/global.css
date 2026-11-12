@@ -133,6 +133,10 @@ button {
   background-color: var(--color-section);
 }
 
+article[id] {
+  scroll-margin-top: calc(var(--navbar-height) + var(--space-md));
+}
+
 .section__header {
   margin-bottom: var(--space-xl);
 }

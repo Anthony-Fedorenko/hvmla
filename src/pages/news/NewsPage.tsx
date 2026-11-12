@@ -57,7 +57,7 @@ export default function NewsPage() {
               const bodyParagraphs = (lang === "ru" ? item.bodyRu : item.bodyEn).split("\n\n");
 
               return (
-                <article key={item.id} className="card">
+                <article key={item.id} id={item.id} className="card">
                   <p
                     style={{
                       fontSize: "0.78rem",

@@ -38,6 +38,7 @@ export default function Announcements() {
             {announcements.map((a) => (
               <article
                 key={a.id}
+                id={a.id}
                 className="card"
                 style={{
                   borderLeft: "4px solid var(--color-accent)",
