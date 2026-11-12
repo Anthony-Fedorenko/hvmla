@@ -13,6 +13,17 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
+    id: "n5",
+    date: "November 6, 2026",
+    titleEn: "A Special Honor for Our Cathedral!",
+    titleRu: "Особая награда для нашего собора!",
+    summaryEn: "Holy Virgin Mary Russian Orthodox Cathedral has received the 2026 Honor Award from the American Institute of Architects (AIA), San Fernando Valley, in recognition of Excellence in Design and Execution of Architecture.",
+    summaryRu: "Свято-Богородицкий Русский православный собор получил Почётную награду 2026 года от Американского института архитекторов (AIA), отделение Сан-Фернандо-Вэлли, за выдающееся архитектурное проектирование и воплощение.",
+    bodyEn: "We are pleased and grateful to announce that Holy Virgin Mary Russian Orthodox Cathedral has received the 2026 Honor Award from the American Institute of Architects (AIA), San Fernando Valley, in recognition of Excellence in Design and Execution of Architecture.\n\nThis distinguished recognition honors the architectural design and execution of our Cathedral, designed by Vladimir Elmanovich, AIA, of VEA Architects.\n\nThis award is a special occasion for our entire parish family. Our Cathedral is not simply a building; it is our spiritual home, a place of prayer, worship, beauty, fellowship, and the living witness of the Orthodox Christian faith in Los Angeles.\n\nWe give thanks to Almighty God for this recognition and extend our sincere gratitude to the architect, everyone who contributed to the project, and our parishioners whose prayers, love, and dedication sustain the life of our Cathedral.\n\nMay the Lord continue to bless our parish, preserve our Cathedral, and make it a place where generations to come will encounter the beauty of the Orthodox faith.\n\nWith gratitude to God!",
+    bodyRu: "С радостью и благодарностью сообщаем, что Свято-Богородицкий Русский православный собор получил Почётную награду 2026 года (Honor Award) от Американского института архитекторов (AIA), отделение Сан-Фернандо-Вэлли, за выдающееся архитектурное проектирование и воплощение.\n\nЭта почётная награда отмечает архитектурное решение и исполнение нашего собора, спроектированного Владимиром Эльмановичем, AIA, из бюро VEA Architects.\n\nЭто особое событие для всей нашей приходской семьи. Наш собор — не просто здание; это наш духовный дом, место молитвы, богослужения, красоты и общения, живое свидетельство православной христианской веры в Лос-Анджелесе.\n\nМы благодарим Всемогущего Бога за эту награду и выражаем искреннюю признательность архитектору, всем, кто потрудился над проектом, и нашим прихожанам, чьи молитвы, любовь и преданность поддерживают жизнь нашего собора.\n\nДа благословит Господь наш приход, да сохранит наш собор и сделает его местом, где грядущие поколения встретят красоту православной веры.\n\nС благодарностью Богу!",
+    photos: ["/honor_award.jpg"],
+  },
+  {
     id: "n4",
     date: "September 29, 2026",
     titleEn: "The Universal Exaltation of the Precious and Life-Giving Cross",
