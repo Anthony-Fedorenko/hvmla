@@ -10,6 +10,15 @@ export interface Announcement {
 
 export const announcements: Announcement[] = [
   {
+    id: "a7",
+    date: "November 16, 2026",
+    titleEn: "The Shepherds' Journey to the Nativity — December 20, 2026",
+    titleRu: "«Путешествие пастухов к Рождеству» — 20 декабря 2026",
+    bodyEn: "Join us for a holiday performance for the whole family, \"The Shepherds' Journey to the Nativity,\" on Sunday, December 20, 2026, from 1:00 to 3:00 PM at Holy Virgin Mary Russian Orthodox Cathedral in Los Angeles. The performance is in Russian and is organized by the Holy Virgin Mary Russian Orthodox Parochial School. Registration is on Eventbrite — scan the QR code on the flyer below.",
+    bodyRu: "Приглашаем всю семью на праздничное представление «Путешествие пастухов к Рождеству» в воскресенье, 20 декабря 2026 года, с 13:00 до 15:00 в Свято-Богородицком Русском православном соборе в Лос-Анджелесе. Представление проходит на русском языке и организовано Свято-Богородицкой Русской православной приходской школой. Регистрация на Eventbrite — отсканируйте QR-код на плакате ниже.",
+    image: "/shepherds_journey_nativity_2026.jpg",
+  },
+  {
     id: "a6",
     date: "September 3, 2026",
     titleEn: "Annual Slavic Festival — November 1, 2026",
